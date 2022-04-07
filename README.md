@@ -1,2 +1,1 @@
-# haotian.github.io
-Haotian's blog 
+# WeijieMax.github.io
