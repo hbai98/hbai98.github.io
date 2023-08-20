@@ -17,14 +17,17 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Haotian Bai dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+Hello, my name is Haotian Bai. I have earned my bachelor's degree in computer science from Shanghai University and am currently pursuing a Ph.D. in computer vision, AI Thrust, at HKUST's Guangzhou campus. I am a part of the Vlislab research team, supervised by Prof. Lin Wang. My works have been published in prestigious AI conferences such as CVPR, ICCV, ECCV, and NeurIPS.
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+In my spare time, I enjoy cooking, playing basketball, listening to music, and learning about starting a business.
+
+My primary research interests are in 3D reconstruction, with a focus on Neural Radiance Field (NeRF) and its applications using multi-model data. I am also interested in robotics, specifically simultaneous localization and mapping (SLAM). Beyond that, my personal research interests include graph theory, complex systems, and reinforcement deep learning (RDL).
+I have published 5 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DIy4cA0AAAAJ'>google scholar citations <strong><span id='total_cit'>~100</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DIy4cA0AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
 
 # 🔥 News
 
-- *2022.02*: &nbsp;🎉🎉 Haotian Bai dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
-- *2022.02*: &nbsp;🎉🎉 Haotian Bai dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
+- *2022.07*: &nbsp;🎉🎉 Haotian Bai dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
+- *2022.07*: &nbsp;🎉🎉 My first paper is accepted by ECCV2022. 
 
 # 📝 Publications
 

@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Haotian Bai"
-description              : "Haotian Bai is . "
+description              : "Stay hungry. Stay foolish."
 repository               : "164140757/haotian.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -25,7 +25,7 @@ author:
   avatar           : "images/android-chrome-512x512.png"
   bio              : "PhD student at AI Thrust of HKUST (GZ)"
   location         : "Guangzhou, China"
-  employer         :
+  employer         : 
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=DIy4cA0AAAAJ"
   email            : "hbai965@connect.hkust-gz.edu.cn"
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : # e.g., "github username"
+  github           : "164140757" # e.g., "github username"
   google_plus      :
   keybase          :
   instagram        :
@@ -51,11 +51,11 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : 
+  twitter          : HaotianBai1
   vine             :
   weibo            :
   xing             :
-  youtube          :
+  youtube          : haotianbai3052
   wikipedia        :
 
 
