@@ -1,7 +1,8 @@
 
-Hello, my name is Haotian Bai. I am currently pursuing a Ph.D. in computer vision, AI Thrust, at HKUST's Guangzhou campus. I am a part of <a href='https://vlislab22.github.io/vlislab/'>Vlislab</a> research team, supervised by Prof. <a href='https://vlislab22.github.io/vlislab/linwang.html'>Addison Lin Wang(王林)</a>. 
+Hello, my name is Haotian Bai(白皓天). I am currently pursuing a Ph.D. in computer vision, AI Thrust, at HKUST's Guangzhou campus. I am a part of <a href='https://vlislab22.github.io/vlislab/'>Vlislab</a> research team, supervised by Prof. <a href='https://vlislab22.github.io/vlislab/linwang.html'>Addison Lin Wang(王林)</a>. 
 
 In my spare time, I enjoy cooking, playing basketball, listening to music, and learning about starting a business.
 
 My primary research interests are in 3D reconstruction, with a focus on Neural Radiance Field (NeRF) and its applications using multi-model data. I am also interested in robotics, specifically simultaneous localization and mapping (SLAM). Beyond that, my personal research interests include graph theory, complex systems, life science especially aging, physics(thermodynamics),and reinforcement deep learning (RDL).
-I have published 4 papers <a href='https://scholar.google.com/citations?user=DIy4cA0AAAAJ'><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%hbai98%2hbai98.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> at prestigious AI conferences such as CVPR, ICCV, ECCV, and NeurIPS.
+I have published 4 papers <a href='https://scholar.google.com/citations?user=DIy4cA0AAAAJ'><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fhbai98%2Fhbai98.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> at prestigious AI conferences such as CVPR, ICCV, ECCV, and NeurIPS.
+
