@@ -8,4 +8,4 @@
 - *2021.07*: I join School of Data Science, CUHKSZ as a research assistant supervised by <a href='http://www.zhangruimao.site/'>Ruimao Zhang(张瑞茂)</a>.
 - *2021.06*: I graduate from Shanghai Univeristy with my bachelor's degree in computer science and engineering.
 - *2019.09*: I was selected as (1/300) Chinese undergraduate student representatives to attend the <a href='https://raeng.org.uk/about-us/international/international-partnerships/global-grand-challenges-summit-2019#:~:text=The%20Summit%20took%20place%20on,entrepreneurs%2C%20and%20policymakers%20in%20attendance.'>Global Grand Challenge Summit</a> in London.
-- *2019.06*: I was selected as (1/30) undergraduate student representatives to join the leadership program in <a herf='https://www.wharton.upenn.edu/'>Wharton School of UPEEN</a>.
+- *2019.06*: I was selected as (1/30) undergraduate student representatives to join the leadership program in <a herf='https://www.wharton.upenn.edu/'>The Wharton School of UPEEN</a>.
