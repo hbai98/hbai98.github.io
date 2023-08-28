@@ -10,7 +10,7 @@
 [**Project**](https://vlislab22.github.io/DOT/) <strong><span class='show_paper_citations' data='DIy4cA0AAAAJ:Y0pCki6q_DkC'></span></strong>\| Video \| [![](https://img.shields.io/github/stars/hbai98/DOT?style=social)](https://github.com/hbai98/DOT)
 
 - A more compact and fertile PlenOctree (POT) NeRF representation.
-- **Inspiration**: POT’s fixed structure for direct optimization is sub-optimal as the scene complexity evolves continuously with updates to cached color and density, necessitating refining the sampling distribution to capture signal complexity accordingly.
+- **Inspiration**: POT's fixed structure for direct optimization is sub-optimal as the scene complexity evolves continuously with updates to cached color and density, necessitating refining the sampling distribution to capture signal complexity accordingly.
 - **Competitive**: DOT outperforms POT by enhancing visual quality, reducing over
 55.15/68.84% parameters, and providing 1.7/1.9 times FPS for NeRF-synthetic and Tanks and Temples.
 
