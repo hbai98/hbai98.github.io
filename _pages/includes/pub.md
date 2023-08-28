@@ -13,7 +13,6 @@
 - **Inspiration**: POT's fixed structure for direct optimization is sub-optimal as the scene complexity evolves continuously with updates to cached color and density, necessitating refining the sampling distribution to capture signal complexity accordingly.
 - **Competitive**: DOT outperforms POT by enhancing visual quality, reducing over
 55.15/68.84% parameters, and providing 1.7/1.9 times FPS for NeRF-synthetic and Tanks and Temples.
-
 </div>
 </div>
 
