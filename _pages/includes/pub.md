@@ -7,7 +7,7 @@
 
 **Haotian Bai**, Yiqi Lin, Yize Chen, Lin Wang
 
-[**Project**](https://vlislab22.github.io/DOT/) <strong><span class='show_paper_citations' data='DIy4cA0AAAAJ:Y0pCki6q_DkC'></span></strong>\| Video \| [![](https://img.shields.io/github/stars/hbai98/DOT?style=social)](https://github.com/hbai98/DOT)
+[**Project**](https://vlislab22.github.io/DOT/) <strong><span class='show_paper_citations' data='DIy4cA0AAAAJ:Y0pCki6q_DkC'></span></strong>\| [Video](https://www.youtube.com/watch?v=i9MnoFhH8Ec) \| [![](https://img.shields.io/github/stars/hbai98/DOT?style=social)](https://github.com/hbai98/DOT)
 
 - A more compact and fertile PlenOctree (POT) NeRF representation.
 - **Inspiration**: POT's fixed structure for direct optimization is sub-optimal as the scene complexity evolves continuously with updates to cached color and density, necessitating refining the sampling distribution to capture signal complexity accordingly.
