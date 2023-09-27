@@ -9,5 +9,5 @@ My papers <a href='https://scholar.google.com/citations?user=DIy4cA0AAAAJ'><img 
 Recently,
 
 - I am working with <a href='https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Haoxiang/haoxiangli'>Prof.Haoxiang Li</a> on <a href='https://www.wikiwand.com/en/Photoemission_spectroscopy'>photoemission spectroscopy</a> for quantum materials.
-- I am conducting research on surface reconstruction problem in NeRF.
+- I am working with <a href='https://scholar.google.com/citations?user=G1NiRmwAAAAJ&hl=en'>Prof.Yize Chen</a> to conduct research on surface reconstruction problem in NeRF.
 - I am expanding my knowledge of optimal control theory to enhance my research on robotics.
