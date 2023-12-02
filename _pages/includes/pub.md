@@ -1,16 +1,14 @@
 # 📝 Publications
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv Preprint</div><img src='images/componerf.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/componerf.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [CompoNeRF: Text-guided Multi-object Compositional NeRF with Editable 3D
 Scene Layout](https://arxiv.org/abs/2303.13843)
 
 **Haotian Bai**, Yuanhuiyi Lyu, Lutao Jiang, 
-
 Sijia Li, Haonan Lu, Xiaodong Lin, Lin Wang
 
-[**Project**] 
-<strong><span class='show_paper_citations' data='DIy4cA0AAAAJ:YsMSGLbcyi4C'></span></strong>\| [Video]() \| [![](https://img.shields.io/github/stars/hbai98/Componerf?style=social)](https://github.com/hbai98/Componerf)
+[**Project**] <strong><span class='show_paper_citations' data='DIy4cA0AAAAJ:YsMSGLbcyi4C'></span></strong>\| [Video]() \| [![](https://img.shields.io/github/stars/hbai98/Componerf?style=social)](https://github.com/hbai98/Componerf)
 
 - A novel framework that synthesizes coherent **multi-object** scenes by integrating textual descriptions with box-based spatial arrangements.
 - CompoNeRF is designed for precision and adaptability, allowing for individual NeRFs, each denoted by a unique prompt color, to be **composed**, **decomposed**, and **recomposed** with ease, streamlining the construction of complex scenes from cached models after decomposition.
