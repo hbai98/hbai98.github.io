@@ -5,7 +5,9 @@
 [CompoNeRF: Text-guided Multi-object Compositional NeRF with Editable 3D
 Scene Layout](https://arxiv.org/abs/2303.13843)
 
-**Haotian Bai**, Yuanhuiyi Lyu, Lutao Jiang, Sijia Li, Haonan Lu, Xiaodong Lin, Lin Wang
+**Haotian Bai**, Yuanhuiyi Lyu, Lutao Jiang, 
+
+Sijia Li, Haonan Lu, Xiaodong Lin, Lin Wang
 
 [**Project**] 
 <strong><span class='show_paper_citations' data='DIy4cA0AAAAJ:YsMSGLbcyi4C'></span></strong>\| [Video]() \| [![](https://img.shields.io/github/stars/hbai98/Componerf?style=social)](https://github.com/hbai98/Componerf)
