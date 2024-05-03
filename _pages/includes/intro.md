@@ -11,5 +11,5 @@ Please feel free to comment on [Github ![](https://img.shields.io/github/stars/h
 Recently,
 
 - I am working with <a href='https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Haoxiang/haoxiangli'>Prof.Haoxiang Li</a> on <a href='https://www.wikiwand.com/en/Photoemission_spectroscopy'>photoemission spectroscopy</a> for quantum materials.
-- I am working with <a href='https://scholar.google.com/citations?user=G1NiRmwAAAAJ&hl=en'>Prof.Yize Chen</a> to reinforcement learning for Large Language Model.
+- I am working with <a href='https://scholar.google.com/citations?user=G1NiRmwAAAAJ&hl=en'>Prof.Yize Chen</a> on reinforcement learning with Large Language Model(LLM).
 - I am working with Bonan Liu and <a href='https://panhui.people.ust.hk/'>Prof. Pan Hui</a> on 3D vision and robotics.
