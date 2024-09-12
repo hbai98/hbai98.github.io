@@ -38,7 +38,7 @@ Sijia Li, Haonan Lu, Xiaodong Lin, Lin Wang
 
 Jinjing Zhu*, **Haotian Bai<sup>*</sup>**, Lin Wang
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DIy4cA0AAAAJ&citation_for_view=DIy4cA0AAAAJ:UeHWp8X0CEIC) <strong><span class='show_paper_citations' data='DIy4cA0AAAAJ:UeHWp8X0CEIC'></span></strong>\| [Video](https://www.youtube.com/watch?v=WNFlX0WFAO8) \| [![](https://img.shields.io/github/stars/jinjingZhu/PMTrans?style=social)](https://github.com/JinjingZhu/PMTrans)
+[**Project**](https://vlis2022.github.io/cvpr23/PMTrans.html) <strong><span class='show_paper_citations' data='DIy4cA0AAAAJ:UeHWp8X0CEIC'></span></strong>\| [Video](https://www.youtube.com/watch?v=WNFlX0WFAO8) \| [![](https://img.shields.io/github/stars/jinjingZhu/PMTrans?style=social)](https://github.com/JinjingZhu/PMTrans)
 
 - Be selected as one of CVPR <span style="color:red">(highlight)</span> papers(**top 2.5%**)
 - **Large Domain Gap**:  PMTrans bridges source and target domains with an intermediate domain in a relatively smooth way.
