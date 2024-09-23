@@ -6,7 +6,7 @@
 
 **Haotian Bai**, Yize Chen, Lin Wang
 
-[**Project**](https://vlislab22.github.io/Hi-NeuS/) <strong><span class='show_paper_citations' data=''></span></strong>\| [**Video**](https://youtu.be/hrkM5N7AltY) \| [![](https://img.shields.io/github/stars/hbai98/Hi_NeuS?style=social)](https://github.com/hbai98/Hi_NeuS)
+[**Project**](https://vlislab22.github.io/Hi-NeuS/) \| [**Video**](https://youtu.be/hrkM5N7AltY) \| [![](https://img.shields.io/github/stars/hbai98/Hi_NeuS?style=social)](https://github.com/hbai98/Hi_NeuS)
 
 - A novel rendering-based framework for neural implicit surface reconstruction, aiming to recover compact and precise surfaces **without multi-view object masks**.
 - Since overlaps in images implicitly identifies the surface that a user intends to capture, Hi-NeuS takes multi-view rendering weights to guide the signed distance functions of neural surfaces in a **self-supervised** manner.
