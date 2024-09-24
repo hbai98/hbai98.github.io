@@ -22,7 +22,7 @@
 **Haotian Bai**, Yuanhuiyi Lyu, Lutao Jiang, 
 Sijia Li, Haonan Lu, Xiaodong Lin, Lin Wang
 
-[**Project**] <strong><span class='show_paper_citations' data='DIy4cA0AAAAJ:YsMSGLbcyi4C'></span></strong>\| [**Video**] \| [![](https://img.shields.io/github/stars/hbai98/Componerf?style=social)](https://github.com/hbai98/Componerf)
+[**Project**](https://vlislab22.github.io/componerf/) <strong><span class='show_paper_citations' data='DIy4cA0AAAAJ:YsMSGLbcyi4C'></span></strong>\| [**Video**](https://www.youtube.com/watch?v=eufdSsa-P9U) \| [![](https://img.shields.io/github/stars/hbai98/Componerf?style=social)](https://github.com/hbai98/Componerf)
 
 - A novel framework that synthesizes coherent **multi-object** scenes by integrating textual descriptions with box-based spatial arrangements.
 - CompoNeRF is designed for precision and adaptability, allowing for individual NeRFs, each denoted by a unique prompt color, to be **composed**, **decomposed**, and **recomposed** with ease, streamlining the construction of complex scenes from cached models after decomposition.
