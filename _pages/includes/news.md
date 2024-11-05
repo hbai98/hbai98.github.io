@@ -1,6 +1,6 @@
 # 🔥 News
-
-- *2023.09*: I join AI Thrust, Info Hub in HKUST(GZ) as a Ph.D. candidate supervised by <a href='https://vlislab22.github.io/vlislab/linwang.html'>Addison Lin Wang(王林)</a>.
+- *2024.11*: I join the research team lead by <a href='https://www.hkust-gz.edu.cn/people/hui-xiong/'>Prof.Hui Xiong (熊辉)</a>.
+- *2023.09*: I join AI Thrust, Info Hub in HKUST(GZ) as a Ph.D. student.
 - *2023.07*: &nbsp;🎉🎉 One paper is accepted by ICCV2023.
 - *2023.03*: &nbsp;🎉🎉 One paper is accepted by CVPR2023 highlight(top 2.5%).
 - *2022.07*: &nbsp;🎉🎉 My first paper is accepted by ECCV2022.
