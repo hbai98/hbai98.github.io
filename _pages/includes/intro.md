@@ -13,10 +13,6 @@ In my spare time, I enjoy cooking, playing basketball, listening to music, and l
 
 I’m currently a core founder of HoloSoul (灵映科技), building an emotional AI companion that blends voice, vision, and long-term memory to stay present for people we care about [http://holosoul.ai/](http://holosoul.ai/).
 
-Recently,
-
-- I am investigating on 3D/4D scene reconstruction and generation.
-
 <!-- - I am working with <a href='https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Haoxiang/haoxiangli'>Prof.Haoxiang Li</a> on <a href='https://www.wikiwand.com/en/Photoemission_spectroscopy'>photoemission spectroscopy</a> for quantum materials.
 - I am working with <a href='https://scholar.google.com/citations?user=G1NiRmwAAAAJ&hl=en'>Prof.Yize Chen</a> on reinforcement learning with Large Language Model(LLM). -->
 <!-- - I am working with Bonan Liu and <a href='https://panhui.people.ust.hk/'>Prof. Pan Hui</a> on 3D vision and robotics. -->
