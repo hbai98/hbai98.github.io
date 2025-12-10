@@ -22,7 +22,7 @@ baidu_site_verification  : # get baidu_site_verification from https://ziyuan.bai
 # Site Author
 author:
   name             : "Haotian Bai"
-  avatar           : "images/android-chrome-512x512.png"
+  avatar           : "/images/android-chrome-512x512.png"
   bio              : "PhD student at AI Thrust of HKUST (GZ)"
   location         : "Guangzhou, China"
   employer         : 

@@ -1,5 +1,5 @@
 # 📝 Publications
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/hi-neus.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='{{ "/images/hi-neus.png" | relative_url }}' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [High-Fidelity Mask-free Neural Surface Reconstruction for Virtual Reality](https://arxiv.org/abs/2409.13158)
@@ -14,7 +14,7 @@
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/componerf.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='{{ "/images/componerf.png" | relative_url }}' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [CompoNeRF: Text-guided Multi-object Compositional NeRF with Editable 3D Scene Layout](https://arxiv.org/abs/2303.13843)
@@ -29,7 +29,7 @@ Sijia Li, Haonan Lu, Xiaodong Lin, Lin Wang
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2023</div><img src='images/DOT.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2023</div><img src='{{ "/images/DOT.png" | relative_url }}' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Dynamic PlenOctree for Adaptive Sampling Refinement in Explicit NeRF](https://arxiv.org/abs/2307.15333)
@@ -45,7 +45,7 @@ Sijia Li, Haonan Lu, Xiaodong Lin, Lin Wang
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2023</div><img src='images/PatchMix.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2023</div><img src='{{ "/images/PatchMix.png" | relative_url }}' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Patch-Mix Transformer  for  Unsupervised Domain Adaptation:  A Game Perspective](https://arxiv.org/abs/2303.13434)
@@ -62,7 +62,7 @@ Jinjing Zhu*, **Haotian Bai<sup>*</sup>**, Lin Wang
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECCV 2022</div><img src='images/SCM.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECCV 2022</div><img src='{{ "/images/SCM.png" | relative_url }}' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Weakly Supervised Object Localization via Transformer with Implicit Spatial Calibration](https://arxiv.org/pdf/2207.10447)
