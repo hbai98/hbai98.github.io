@@ -1,4 +1,7 @@
 # 🔥 News
+- *2025.12*: HoloSoul was featured at Hong Kong Science Park for its emotional AI companion and multimodal experience in this [feature article](https://mp.weixin.qq.com/s/aXo6bQKWEW7TArKqGOhx6Q).
+- *2025.11*: HoloSoul earned third prize and a finals berth at the Guangzhou Sci-Tech Innovation & HKUST Million Dollar Entrepreneurship Competition per the [official announcement](https://kjj.gz.gov.cn/gsxx/content/post_10524225.html).
+- *2025.06*: HoloSoul debuted at the HKUST(GZ) InnoTech Expo, drawing investors, students, and media attention, and received a [Learning Power](https://article.xuexi.cn/articles/index.html?art_id=1590596253788855915&item_id=1590596253788855915&cdn=https%3A%2F%2Fregion-guangdong-resource&study_style_id=video_default&source=share&share_to=wx_single) feature.
 - *2024.11*: I join the research team lead by <a href='https://www.hkust-gz.edu.cn/people/hui-xiong/'>Prof.Hui Xiong (熊辉)</a>.
 - *2023.09*: I join AI Thrust, Info Hub in HKUST(GZ) as a Ph.D. student.
 - *2023.07*: &nbsp;🎉🎉 One paper is accepted by ICCV2023.
@@ -9,6 +12,3 @@
 - *2021.06*: I graduate from Shanghai Univeristy with my bachelor's degree in computer science and engineering.
 - *2019.09*: I was selected as (1/300) Chinese undergraduate student representatives to attend the <a href='https://raeng.org.uk/about-us/international/international-partnerships/global-grand-challenges-summit-2019#:~:text=The%20Summit%20took%20place%20on,entrepreneurs%2C%20and%20policymakers%20in%20attendance.'>Global Grand Challenge Summit</a> in London.
 - *2019.06*: I was selected as (1/30) undergraduate student representatives to join <a href='https://leadership.wharton.upenn.edu/'>the leadership program</a> in The Wharton School of UPEEN.
-- *2025.02*: HoloSoul was featured at Hong Kong Science Park for its emotional AI companion and multimodal experience [https://mp.weixin.qq.com/s/aXo6bQKWEW7TArKqGOhx6Q](https://mp.weixin.qq.com/s/aXo6bQKWEW7TArKqGOhx6Q).
-- *2025.01*: HoloSoul earned third prize and a finals berth at the Guangzhou Sci-Tech Innovation & HKUST Million Dollar Entrepreneurship Competition [https://kjj.gz.gov.cn/gsxx/content/post_10524225.html](https://kjj.gz.gov.cn/gsxx/content/post_10524225.html).
-- *2024.10*: HoloSoul debuted at HKUST(GZ) InnoTech 创科展, drawing investors, students, and media attention, and received a Learning Power (学习强国) feature [https://article.xuexi.cn/articles/index.html?art_id=1590596253788855915&item_id=1590596253788855915&cdn=https%3A%2F%2Fregion-guangdong-resource&study_style_id=video_default&source=share&share_to=wx_single](https://article.xuexi.cn/articles/index.html?art_id=1590596253788855915&item_id=1590596253788855915&cdn=https%3A%2F%2Fregion-guangdong-resource&study_style_id=video_default&source=share&share_to=wx_single).

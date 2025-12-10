@@ -29,3 +29,7 @@ group :jekyll_plugins do
 end
 
 gem "webrick", "~> 1.8"
+
+gem "csv", "~> 3.3"
+gem "base64", "~> 0.3"
+gem "bigdecimal", "~> 3.1"

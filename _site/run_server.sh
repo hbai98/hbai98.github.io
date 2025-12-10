@@ -1,1 +1,1 @@
-bundle exec jekyll liveserve
+RUBYOPT="-r./_plugins/taint_patch" bundle exec jekyll liveserve

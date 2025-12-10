@@ -146,6 +146,8 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
+# ensure local plugins in _plugins are loaded (needed for Ruby 3.x shims)
+safe: false
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate

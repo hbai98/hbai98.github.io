@@ -4,17 +4,16 @@
 
 
 ## Impermanence to purpose
-When I was twelve, I suddenly realized how short and fragile life is — the moment someone I deeply cared about left my life. That early sense of impermanence made me obsessed with understanding how humans might live longer, healthier lives. Technology felt like the only path powerful enough to make that happen. Since then, I’ve approached learning with intense curiosity, always trying to explain the world through first-principles thinking, asking questions again and again until I truly understand.
+At twelve, I learned how abruptly life can change when someone I loved disappeared from my daily orbit. That shock didn’t make me cynical; it made me restless for answers. I became consumed with the question of how we could sustain longer, healthier lives, and technology felt like the most audacious tool available. Ever since, I’ve treated every topic as a puzzle to be disassembled, interrogating first principles and asking the extra question that people usually leave unspoken.
 
 ## Hacking systems beyond code
-As an undergraduate, I spent seven months building a bioinformatics software entirely from scratch — teaching myself Java, protein-network algorithms, and computational biology without guidance. This tool ([BNMatch2](https://apps.cytoscape.org/apps/bnmatch2)) became the conceptual foundation for my [first top-tier computer vision publication](https://arxiv.org/pdf/2207.10447), ultimately helping me win my Ph.D. offer. The “hack” was realizing knowledge from a completely different field — protein information flow — could be transferred into AI semantics modeling.
+During undergrad, I spent seven months building a bioinformatics platform by myself — no advisor, no syllabus, just a stubborn curiosity. I taught myself Java, protein-network algorithms, and enough computational biology to launch [BNMatch2](https://apps.cytoscape.org/apps/bnmatch2), an open tool that would later inspire the semantics modeling in my [first top-tier CV publication](https://arxiv.org/pdf/2207.10447). The real breakthrough wasn’t the code; it was the realization that insights from protein information flow could be smuggled into AI, proving disciplines talk to each other if we force the conversation.
 
 ## A moment that reshaped my path
-I have strong public-speaking abilities. During my undergraduate years, I stood on stage at lunchtime — when the whole school was around — to give an English campaign speech. That moment led to me being selected as one of 30 student representatives for a leadership program at The Wharton School, University of Pennsylvania.
+One midday in college, I climbed on stage and delivered an English campaign speech while the entire campus milled around with trays of food. It was audacious and a little chaotic — and it worked. That moment led to my selection as one of thirty student representatives for a leadership program at The Wharton School, validating that ideas travel further when you’re willing to voice them in imperfect settings.
 
 ## Choosing conviction over certainty
-I turned down a guaranteed graduate school admission after my bachelor’s degree, which caused confusion and disagreement from my family and peers. I moved alone to Shenzhen to pursue my academic dream as a research assistant at CUHK(SZ). Despite the uncertainty and lack of support, I produced my first research paper — something even senior lab members had not achieved. This taught me resilience and conviction in my own path.
+After graduation, I declined a guaranteed spot in graduate school. Family and friends questioned me, but I packed for Shenzhen anyway to work as a research assistant at CUHK(SZ). I lived with the uncertainty, pushed through, and authored my first research paper before many senior lab members published theirs. That experience rewired how I evaluate risk: I now trust conviction more than consensus.
 
 ## What I’m known for
-I specialize in solving technical problems with strong intuition, creativity, and first-principles reasoning. Peers often see me as someone who can distill a complex system down to its core mechanics and identify the most essential breakthrough point.
-
+Colleagues describe me as someone who disassembles complex systems until only the critical gears remain. I lean on intuition, creativity, and first-principles reasoning to hunt for the leverage point — the single insight that shifts the entire problem. That reputation keeps me accountable to the craft of deep thinking.
