@@ -20,5 +20,10 @@ One midday in college, I climbed on stage and delivered an English campaign spee
 ## Choosing conviction over certainty
 After graduation, I declined a guaranteed spot in graduate school. Family and friends questioned me, but I packed for Shenzhen anyway to work as a research assistant at CUHK(SZ). I lived with the uncertainty, pushed through, and authored my first research paper before many senior lab members published theirs. That experience rewired how I evaluate risk: I now trust conviction more than consensus.
 
+## From papers to products with AI
+During my PhD at HKUST(GZ), I kept seeing research constrained by narrow setups, resource-heavy experiments, and results that cracked under real-world pressure. Watching tools like Cursor automate coding made the pattern clear: in fast-moving fields like AI, a paper can be leapfrogged within months. Spending half a year for one top-tier publication is an achievement, but the next release often eclipses it.
+
+I came to believe most of that work is 90% engineering polish that automation will absorb. The opportunity is in the remaining 10% — taste, design, and judgment — and that’s where business lives. I spent the next half year building [HoloSoul](https://holosoul.ai) from scratch as a real product, not a PDF: system software aimed at customers, revenue, and durability. That pivot convinced me I’d rather build companies that survive contact with the world than chase citations that don’t.
+
 ## What I’m known for
 Colleagues describe me as someone who disassembles complex systems until only the critical gears remain. I lean on intuition, creativity, and first-principles reasoning to hunt for the leverage point — the single insight that shifts the entire problem. That reputation keeps me accountable to the craft of deep thinking.
