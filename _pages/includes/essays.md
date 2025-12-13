@@ -6,6 +6,11 @@
 ## Impermanence to purpose
 At twelve, I learned how abruptly life can change when someone I loved disappeared from my daily orbit. That shock didn’t make me cynical; it made me restless for answers. I became consumed with the question of how we could sustain longer, healthier lives, and technology felt like the most audacious tool available. Ever since, I’ve treated every topic as a puzzle to be disassembled, interrogating first principles and asking the extra question that people usually leave unspoken.
 
+## When curiosity outruns exams
+In Chinese high school, everything revolved around the gaokao (高考). I never cracked the top scores, but I was the student haunting the teachers’ office, asking my physics teacher why gravity feels like an invisible glue binding particles. That instinct to chase first principles — instead of test hacks — soaked up time and showed in my scores, even as teachers called me the hardest worker in the class.
+
+With more practice I learned to play the exam game, yet I never matched the naturals who vaulted into the most resource-rich colleges. The system’s promise of equal opportunity matters, but it can flatten curiosity in the process. I still hope we can keep fairness while making more room for students who can’t stop asking why.
+
 ## Hacking systems beyond code
 During undergrad, I spent seven months building a bioinformatics platform by myself — no advisor, no syllabus, just a stubborn curiosity. I taught myself Java, protein-network algorithms, and enough computational biology to launch [BNMatch2](https://apps.cytoscape.org/apps/bnmatch2), an open tool that would later inspire the semantics modeling in my [first top-tier CV publication](https://arxiv.org/pdf/2207.10447). The real breakthrough wasn’t the code; it was the realization that insights from protein information flow could be smuggled into AI, proving disciplines talk to each other if we force the conversation.
 
