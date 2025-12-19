@@ -178,7 +178,7 @@
   background: $background-color;
   padding-right: 70px; /* Space for language toggle */
 
-  a {
+  a:not(.lang-toggle) {
     display: block;
     margin: 0 1rem;
     padding: 0.5rem 0;

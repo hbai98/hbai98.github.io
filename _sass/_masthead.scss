@@ -62,23 +62,23 @@
 }
 
 /* Language Toggle - Icon style on right */
-.lang-toggle {
-  position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  display: inline-flex;
+.greedy-nav .lang-toggle {
+  position: absolute !important;
+  right: 0.5em !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  display: inline-flex !important;
   align-items: center;
   gap: 0.35em;
-  padding: 0.4em 0.7em;
-  margin: 0;
+  padding: 0.4em 0.7em !important;
+  margin: 0 !important;
   font-size: 0.85em;
   font-weight: 500;
   color: $gray;
   background-color: transparent;
   border: none;
   border-radius: 4px;
-  text-decoration: none;
+  text-decoration: none !important;
   transition: all 0.2s ease;
   cursor: pointer;
 
