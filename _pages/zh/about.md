@@ -1,12 +1,12 @@
 ---
-permalink: /
+permalink: /zh/
 title: ""
 excerpt: ""
 author_profile: true
-lang: en
+lang: zh
 redirect_from:
-  - /about/
-  - /about.html
+  - /zh/about/
+  - /zh/about.html
 ---
 
 <span class='anchor' id='about-me'></span>
@@ -17,11 +17,3 @@ redirect_from:
 {% include_relative includes/honers.md %}
 
 {% include_relative includes/others.md %}
-
-
-
-
-
-
-
-

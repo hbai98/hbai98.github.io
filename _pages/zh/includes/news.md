@@ -1,0 +1,14 @@
+# 🔥 新闻动态
+- *2025.12*：灵映科技在香港科学园展示其情感AI陪伴产品和多模态体验，相关报道见[这篇文章](https://mp.weixin.qq.com/s/aXo6bQKWEW7TArKqGOhx6Q)和[这篇报道](https://www.stheadline.com/daily-education/3524024/%E7%A7%91%E5%A4%A7%E5%90%88%E8%BE%A6%E5%8D%8A%E5%B0%8E%E9%AB%94%E5%B3%B0%E6%9C%83-%E5%B1%95%E7%A4%BAAI%E6%83%85%E6%84%9F%E9%99%AA%E4%BC%B4%E8%A8%AD%E5%82%99)。
+- *2025.11*：灵映科技在广州科技创新暨港科大百万奖金创业大赛中荣获三等奖并晋级决赛，详见[官方公告](https://kjj.gz.gov.cn/gsxx/content/post_10524225.html)。
+- *2025.06*：灵映科技在港科大（广州）创新科技博览会首次亮相，吸引投资者、学生和媒体关注，并获得[学习强国](https://article.xuexi.cn/articles/index.html?art_id=1590596253788855915&item_id=1590596253788855915&cdn=https%3A%2F%2Fregion-guangdong-resource&study_style_id=video_default&source=share&share_to=wx_single)专题报道。
+- *2024.11*：加入<a href='https://www.hkust-gz.edu.cn/people/hui-xiong/'>熊辉教授</a>课题组。
+- *2023.09*：入读香港科技大学（广州）信息枢纽人工智能学域攻读博士学位。
+- *2023.07*：一篇论文被ICCV2023录用。
+- *2023.03*：一篇论文被CVPR2023录用为亮点论文（前2.5%）。
+- *2022.07*：第一篇论文被ECCV2022录用。
+- *2022.05*：加入港科大（广州）信息枢纽人工智能学域，担任<a href='https://vlislab22.github.io/vlislab/linwang.html'>王林教授</a>指导的研究助理。
+- *2021.07*：加入香港中文大学（深圳）数据科学学院，担任<a href='http://www.zhangruimao.site/'>张瑞茂教授</a>指导的研究助理。
+- *2021.06*：于上海大学获得计算机科学与工程学士学位。
+- *2019.09*：作为中国本科生代表（1/300）参加在伦敦举行的<a href='https://raeng.org.uk/about-us/international/international-partnerships/global-grand-challenges-summit-2019#:~:text=The%20Summit%20took%20place%20on,entrepreneurs%2C%20and%20policymakers%20in%20attendance.'>全球重大挑战峰会</a>。
+- *2019.06*：作为本科生代表（1/30）参加宾夕法尼亚大学沃顿商学院<a href='https://leadership.wharton.upenn.edu/'>领导力项目</a>。

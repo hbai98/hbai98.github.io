@@ -1,0 +1,29 @@
+# Chinese translations
+lang: "zh"
+lang_name: "中文"
+
+# Navigation
+nav:
+  homepage: "主页"
+  about: "关于我"
+  musings: "随笔"
+  work: "研究工作"
+
+# Language switcher
+switch_lang: "English"
+switch_lang_url: "/"
+
+# Section headings
+sections:
+  news: "新闻动态"
+  honors: "荣誉奖项"
+  education: "教育背景"
+  talks: "受邀演讲"
+  internships: "实习经历"
+  publications: "学术论文"
+  musings: "随笔"
+
+# Page titles
+titles:
+  musings: "随笔"
+  publications: "学术论文"

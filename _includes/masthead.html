@@ -1,17 +1,34 @@
+{% assign current_lang = page.lang | default: 'en' %}
+{% assign t = site.data.translations[current_lang] %}
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#about-me" target="_self">Homepage</a></li>
-          {% for link in site.data.navigation.main %}
-            <li class="masthead__menu-item">
-              <a href="{{ link.url | relative_url }}" target="_self">{{ link.title }}</a>
-            </li>
-          {% endfor %}
+          {% if current_lang == 'zh' %}
+            <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="/zh/#about-me" target="_self">{{ t.nav.homepage }}</a></li>
+            <li class="masthead__menu-item"><a href="/zh/#about-me" target="_self">{{ t.nav.about }}</a></li>
+            <li class="masthead__menu-item"><a href="/zh/essays/" target="_self">{{ t.nav.musings }}</a></li>
+            <li class="masthead__menu-item"><a href="/zh/pub/" target="_self">{{ t.nav.work }}</a></li>
+          {% else %}
+            <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#about-me" target="_self">{{ t.nav.homepage }}</a></li>
+            {% for link in site.data.navigation.main %}
+              <li class="masthead__menu-item">
+                <a href="{{ link.url | relative_url }}" target="_self">{{ link.title }}</a>
+              </li>
+            {% endfor %}
+          {% endif %}
         </ul>
         <ul class="hidden-links hidden"></ul>
+        <!-- Language Switcher -->
+        <div class="lang-switcher">
+          {% if current_lang == 'zh' %}
+            <a href="/" class="lang-btn" title="Switch to English">EN</a>
+          {% else %}
+            <a href="/zh/" class="lang-btn" title="切换到中文">中文</a>
+          {% endif %}
+        </div>
       </nav>
     </div>
   </div>

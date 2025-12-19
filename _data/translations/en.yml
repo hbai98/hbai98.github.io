@@ -1,0 +1,29 @@
+# English translations
+lang: "en"
+lang_name: "English"
+
+# Navigation
+nav:
+  homepage: "Homepage"
+  about: "About Me"
+  musings: "Musings"
+  work: "Work"
+
+# Language switcher
+switch_lang: "中文"
+switch_lang_url: "/zh/"
+
+# Section headings
+sections:
+  news: "News"
+  honors: "Honors and Awards"
+  education: "Educations"
+  talks: "Invited Talks"
+  internships: "Internships"
+  publications: "Publications"
+  musings: "Musings"
+
+# Page titles
+titles:
+  musings: "Musings"
+  publications: "Publications"
