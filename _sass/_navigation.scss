@@ -174,9 +174,11 @@
 
 .greedy-nav {
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   min-width: 250px;
   background: $background-color;
-  padding-right: 70px; /* Space for language toggle */
 
   a:not(.lang-toggle) {
     display: block;

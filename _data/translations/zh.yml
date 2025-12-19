@@ -27,3 +27,10 @@ sections:
 titles:
   musings: "随笔"
   publications: "学术论文"
+
+# Author profile (sidebar)
+author:
+  name: "白皓天"
+  bio: "香港科技大学（广州）人工智能学域博士生"
+  location: "中国广州"
+  description: "求知若饥，虚心若愚。昨日已成历史，明日尚是未知，今日乃上天恩赐，故称之为"礼物"（present）。"

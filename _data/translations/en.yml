@@ -27,3 +27,10 @@ sections:
 titles:
   musings: "Musings"
   publications: "Publications"
+
+# Author profile (sidebar)
+author:
+  name: "Haotian Bai"
+  bio: "PhD student at AI Thrust of HKUST (GZ)"
+  location: "Guangzhou, China"
+  description: "Stay hungry. Stay foolish. Yesterday is history, tomorrow is a mystery, today is a gift of God, which is why we call it the present."
