@@ -4,4 +4,4 @@ title: "随笔"
 lang: zh
 ---
 
-{% include_relative includes/essays.md %}
+{% include zh/essays.md %}

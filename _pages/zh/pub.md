@@ -4,4 +4,4 @@ title: "学术论文"
 lang: zh
 ---
 
-{% include_relative includes/pub.md %}
+{% include zh/pub.md %}

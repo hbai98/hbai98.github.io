@@ -4,5 +4,5 @@ title: "Publications"
 lang: en
 ---
 
-{% include_relative includes/pub.md %}
+{% include en/pub.md %}
 

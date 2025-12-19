@@ -4,5 +4,5 @@ title: "Musings"
 lang: en
 ---
 
-{% include_relative includes/essays.md %}
+{% include en/essays.md %}
 
