@@ -7,28 +7,36 @@
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
           {% if current_lang == 'zh' %}
-            <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="/zh/#about-me" target="_self">{{ t.nav.homepage }}</a></li>
-            <li class="masthead__menu-item"><a href="/zh/#about-me" target="_self">{{ t.nav.about }}</a></li>
-            <li class="masthead__menu-item"><a href="/zh/essays/" target="_self">{{ t.nav.musings }}</a></li>
-            <li class="masthead__menu-item"><a href="/zh/pub/" target="_self">{{ t.nav.work }}</a></li>
+            <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="/zh/#about-me">{{ t.nav.homepage }}</a></li>
+            <li class="masthead__menu-item"><a href="/zh/#about-me">{{ t.nav.about }}</a></li>
+            <li class="masthead__menu-item"><a href="/zh/essays/">{{ t.nav.musings }}</a></li>
+            <li class="masthead__menu-item"><a href="/zh/pub/">{{ t.nav.work }}</a></li>
           {% else %}
-            <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#about-me" target="_self">{{ t.nav.homepage }}</a></li>
+            <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#about-me">{{ t.nav.homepage }}</a></li>
             {% for link in site.data.navigation.main %}
               <li class="masthead__menu-item">
-                <a href="{{ link.url | relative_url }}" target="_self">{{ link.title }}</a>
+                <a href="{{ link.url | relative_url }}">{{ link.title }}</a>
               </li>
             {% endfor %}
           {% endif %}
         </ul>
         <ul class="hidden-links hidden"></ul>
-        <!-- Language Switcher -->
-        <div class="lang-switcher">
-          {% if current_lang == 'zh' %}
-            <a href="/" class="lang-btn" title="Switch to English">EN</a>
-          {% else %}
-            <a href="/zh/" class="lang-btn" title="切换到中文">中文</a>
-          {% endif %}
-        </div>
+        <!-- Language Switcher - Icon on right -->
+        {% if current_lang == 'zh' %}
+          <a href="/" class="lang-toggle" title="Switch to English" aria-label="Switch to English">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+            </svg>
+            <span class="lang-text">EN</span>
+          </a>
+        {% else %}
+          <a href="/zh/" class="lang-toggle" title="切换到中文" aria-label="切换到中文">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+            </svg>
+            <span class="lang-text">中文</span>
+          </a>
+        {% endif %}
       </nav>
     </div>
   </div>

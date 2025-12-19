@@ -176,6 +176,7 @@
   position: relative;
   min-width: 250px;
   background: $background-color;
+  padding-right: 70px; /* Space for language toggle */
 
   a {
     display: block;
@@ -192,7 +193,7 @@
   button {
     position: absolute;
     height: 100%;
-    right: 0;
+    right: 70px; /* Offset for language toggle */
     padding: 0 0.5rem;
     border: 0;
     outline: none;
