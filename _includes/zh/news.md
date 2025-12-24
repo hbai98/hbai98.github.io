@@ -1,4 +1,5 @@
 # 🔥 新闻动态
+- *2025.12*：灵映科技在香港科大"创科行"（第8站）@诸暨活动中展示其情感AI陪伴平台。详见[活动报道](https://mp.weixin.qq.com/s/khISkxgZXmsBXuaY-ZP1XA)。
 - *2025.12*：灵映科技在香港科学园展示其情感AI陪伴产品和多模态体验，相关报道见[这篇文章](https://mp.weixin.qq.com/s/aXo6bQKWEW7TArKqGOhx6Q)和[这篇报道](https://www.stheadline.com/daily-education/3524024/%E7%A7%91%E5%A4%A7%E5%90%88%E8%BE%A6%E5%8D%8A%E5%B0%8E%E9%AB%94%E5%B3%B0%E6%9C%83-%E5%B1%95%E7%A4%BAAI%E6%83%85%E6%84%9F%E9%99%AA%E4%BC%B4%E8%A8%AD%E5%82%99)。
 - *2025.11*：灵映科技在广州科技创新暨港科大百万奖金创业大赛中荣获三等奖并晋级决赛，详见[官方公告](https://kjj.gz.gov.cn/gsxx/content/post_10524225.html)。
 - *2025.06*：灵映科技在港科大（广州）创新科技博览会首次亮相，吸引投资者、学生和媒体关注，并获得[学习强国](https://article.xuexi.cn/articles/index.html?art_id=1590596253788855915&item_id=1590596253788855915&cdn=https%3A%2F%2Fregion-guangdong-resource&study_style_id=video_default&source=share&share_to=wx_single)专题报道。
