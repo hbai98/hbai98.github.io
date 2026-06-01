@@ -9,6 +9,7 @@
 <meta name="theme-color" content="#ffffff">
 <link rel="stylesheet" href="{{ '/assets/css/academicons.css' | relative_url }}"/>
 
+{% if page.math %}
 <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
@@ -19,6 +20,7 @@
   });
 </script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
+{% endif %}
 
 <!-- ============================================================
      Custom aesthetic layer — "living paper" editorial scholar
@@ -91,10 +93,17 @@
   .page__content a:not(.btn):hover{color:var(--terra);background-size:100% 1.5px;}
 
   /* ---- author / profile ---- */
+  .author__avatar{padding:0;}
   .author__avatar img{
-    border-radius:20px;
+    display:block;
+    width:100%;
+    max-width:200px;
+    aspect-ratio:1/1;
+    object-fit:cover;
+    object-position:center 28%;
+    padding:0;                 /* kill the theme's 5px ring (the blank gap) */
     border:none;
-    max-width:210px;
+    border-radius:18px;
     box-shadow:0 10px 30px -12px rgba(35,38,47,.45);
     transition:transform .4s cubic-bezier(.2,.7,.2,1),box-shadow .4s ease;
   }
@@ -190,9 +199,9 @@
 
   /* ---- masthead / nav ---- */
   .masthead{
-    background:rgba(251,247,238,.82);
-    backdrop-filter:saturate(140%) blur(10px);
-    -webkit-backdrop-filter:saturate(140%) blur(10px);
+    background:rgba(251,247,238,.88);
+    backdrop-filter:saturate(130%) blur(5px);
+    -webkit-backdrop-filter:saturate(130%) blur(5px);
     border-bottom:1px solid var(--rule);
   }
   .greedy-nav{background:transparent;}
@@ -222,16 +231,16 @@
   .show_paper_citations{font-family:var(--mono);font-size:.8em;color:var(--sap);}
 
   /* ---- one orchestrated page-load reveal ---- */
-  @keyframes hs-rise{from{opacity:0;transform:translateY(14px);}to{opacity:1;transform:none;}}
+  @keyframes hs-rise{from{opacity:0;transform:translateY(9px);}to{opacity:1;transform:none;}}
   @media (prefers-reduced-motion:no-preference){
-    .sidebar{animation:hs-rise .7s cubic-bezier(.2,.7,.2,1) both;}
-    .page__content > *{animation:hs-rise .65s cubic-bezier(.2,.7,.2,1) both;}
-    .page__content > *:nth-child(1){animation-delay:.05s;}
-    .page__content > *:nth-child(2){animation-delay:.12s;}
-    .page__content > *:nth-child(3){animation-delay:.19s;}
-    .page__content > *:nth-child(4){animation-delay:.26s;}
-    .page__content > *:nth-child(5){animation-delay:.33s;}
-    .page__content > *:nth-child(n+6){animation-delay:.4s;}
+    .sidebar{animation:hs-rise .42s ease-out both;}
+    .page__content > *{animation:hs-rise .4s ease-out both;}
+    .page__content > *:nth-child(1){animation-delay:.02s;}
+    .page__content > *:nth-child(2){animation-delay:.06s;}
+    .page__content > *:nth-child(3){animation-delay:.10s;}
+    .page__content > *:nth-child(4){animation-delay:.14s;}
+    .page__content > *:nth-child(5){animation-delay:.18s;}
+    .page__content > *:nth-child(n+6){animation-delay:.2s;}
   }
 </style>
 
