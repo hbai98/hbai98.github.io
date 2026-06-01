@@ -1,4 +1,6 @@
 # 🎖 Honors and Awards
+- *2026.04* **Bronze Medal**, International Exhibition of Inventions of Geneva (HoloSoul).
+- *2025.11* Third Prize & Finalist, Guangzhou Sci-Tech Innovation & HKUST Million Dollar Entrepreneurship Competition (HoloSoul).
 - *2024.08* Serve as a reviewer for Transactions on Multimedia Computing Communications and Applications (TOMM).
 - *2024.06* Serve as a reviewer for IEEE Transactions on Image Processing (TIP).
 - *2024.04* Serve as a reviewer for Transactions on Multimedia Computing Communications and Applications (TOMM).
