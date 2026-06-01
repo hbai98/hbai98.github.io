@@ -29,14 +29,16 @@
      ============================================================ -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
 
 <style>
   :root{
     --paper:#FBF7EE; --paper-2:#F5EFE2; --card:#FFFDF7;
-    --ink:#23262F; --ink-soft:#5F6256; --muted:#8A8676;
+    --ink:#23262F; --ink-soft:#5F6256;
     --sap:#5A6F4D; --terra:#B8523C; --indigo:#3C4F7C;
-    --rule:#E7DFCE;
+    --rule:#E7DFCE; --rule-soft:#F1ECDF;
+    --chip-bg:#FBEEE9; --chip-border:#F1D9D0; --code-bg:#F4EFE2;
+    --glow-warm:#FFF7E6; --glow-cool:#F0EFE6;
     --display:"Fraunces",Georgia,serif;
     --body:"Newsreader",Georgia,serif;
     --mono:"JetBrains Mono",ui-monospace,monospace;
@@ -51,9 +53,8 @@
     font-size:1.02em;
     line-height:1.7;
     -webkit-font-smoothing:antialiased;
-    background-image:radial-gradient(circle at 18% -10%, #fff7e6 0, rgba(255,247,230,0) 42%),
-                     radial-gradient(circle at 110% 8%, #f0efe6 0, rgba(240,239,230,0) 46%);
-    background-attachment:fixed;
+    background-image:radial-gradient(circle at 18% -10%, var(--glow-warm) 0, rgba(255,247,230,0) 42%),
+                     radial-gradient(circle at 110% 8%, var(--glow-cool) 0, rgba(240,239,230,0) 46%);
   }
   .page__content,.archive,.sidebar,.author__content,.layout--single{background:transparent;}
 
@@ -105,7 +106,7 @@
     border-radius:14px;
     box-shadow:0 8px 24px -18px rgba(35,38,47,.5);
   }
-  .author__urls li{border-bottom:1px solid #f1ecdf;}
+  .author__urls li{border-bottom:1px solid var(--rule-soft);}
   .author__urls a{color:var(--ink);} .author__urls a:hover{color:var(--terra);}
   .author__urls .fa,.author__urls .fab,.author__urls .fas,.author__urls .ai{color:var(--sap);}
 
@@ -117,8 +118,8 @@
     font-size:.78em;
     letter-spacing:.02em;
     color:var(--terra);
-    background:#fbeee9;
-    border:1px solid #f1d9d0;
+    background:var(--chip-bg);
+    border:1px solid var(--chip-border);
     padding:.05em .45em;
     border-radius:5px;
     margin-right:.15em;
@@ -171,7 +172,7 @@
   .lang-toggle:hover{border-color:var(--terra);color:var(--terra)!important;}
 
   /* ---- code / misc ---- */
-  code,kbd,tt{font-family:var(--mono);background:#f4efe2;color:var(--sap);border-radius:4px;}
+  code,kbd,tt{font-family:var(--mono);background:var(--code-bg);color:var(--sap);border-radius:4px;}
   blockquote{border-left:3px solid var(--sap);color:var(--ink-soft);font-style:italic;}
   ::selection{background:rgba(184,82,60,.18);color:var(--ink);}
   .page__footer{background:var(--paper-2);color:var(--ink-soft);font-family:var(--body);}
