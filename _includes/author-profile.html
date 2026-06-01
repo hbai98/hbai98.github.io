@@ -13,16 +13,16 @@
   <div class="author__content">
     <h3 class="author__name">{{ t.author.name | default: author.name }}</h3>
     {% if t.author.bio %}<p class="author__bio">{{ t.author.bio }}</p>{% elsif author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    {% if t.author.description %}
+      <blockquote class="author__moto">{{ t.author.description }}</blockquote>
+    {% elsif site.description %}
+      <blockquote class="author__moto">{{ site.description }}</blockquote>
+    {% endif %}
   </div>
 
   <div class="author__urls-wrapper">
     <!-- <button class="btn btn--inverse">More Info & Contact</button> -->
     <ul class="author__urls social-icons">
-      {% if t.author.description %}
-        <li><div style="white-space: normal; margin-bottom: 1em;">{{ t.author.description }}</div></li>
-      {% elsif site.description %}
-        <li><div style="white-space: normal; margin-bottom: 1em;">{{ site.description }}</div></li>
-      {% endif %}
       {% if t.author.location %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ t.author.location }}</li>
       {% elsif author.location %}

@@ -90,25 +90,65 @@
   }
   .page__content a:not(.btn):hover{color:var(--terra);background-size:100% 1.5px;}
 
-  /* ---- author / profile card ---- */
+  /* ---- author / profile ---- */
   .author__avatar img{
-    border-radius:18px;
+    border-radius:20px;
     border:none;
+    max-width:210px;
     box-shadow:0 10px 30px -12px rgba(35,38,47,.45);
     transition:transform .4s cubic-bezier(.2,.7,.2,1),box-shadow .4s ease;
   }
   .author__avatar img:hover{transform:translateY(-3px) rotate(-.6deg);box-shadow:0 16px 40px -14px rgba(184,82,60,.5);}
-  .author__name{font-size:1.5em;margin:.5em 0 .15em;}
-  .author__bio{color:var(--ink-soft);font-style:italic;font-size:1.02em;}
+  .author__name{font-size:1.55em;margin:.55em 0 .12em;line-height:1.16;}
+  /* bio becomes a compact role kicker (distinct from the motto below) */
+  .author__bio{
+    color:var(--sap);
+    font-family:var(--mono);
+    font-style:normal;
+    font-size:.72em;
+    letter-spacing:.04em;
+    text-transform:uppercase;
+    line-height:1.5;
+    margin:0 0 1.2em;
+  }
+
+  /* motto — a pull-quote, lifted out of the contact list */
+  .author__moto{
+    position:relative;
+    margin:0 0 1.5em;
+    padding:.95em 1.05em .95em 1.2em;
+    background:linear-gradient(180deg,var(--paper-2),var(--card));
+    border:none;
+    border-left:3px solid var(--terra);
+    border-radius:0 13px 13px 0;
+    font-family:var(--body);
+    font-style:italic;
+    font-size:1.05em;
+    line-height:1.58;
+    color:var(--ink);
+    box-shadow:0 10px 26px -22px rgba(35,38,47,.7);
+  }
+  .author__moto::before{
+    content:"\201C";
+    position:absolute;left:.16em;top:-.12em;
+    font-family:var(--display);font-weight:600;
+    font-size:2.7em;line-height:1;color:var(--terra);opacity:.15;
+    pointer-events:none;
+  }
+
+  /* contact card */
   .author__urls{
     background:var(--card);
     border:1px solid var(--rule);
     border-radius:14px;
+    overflow:hidden;
     box-shadow:0 8px 24px -18px rgba(35,38,47,.5);
   }
-  .author__urls li{border-bottom:1px solid var(--rule-soft);}
+  .author__urls li{border-bottom:1px solid var(--rule-soft);transition:background .18s ease;}
+  .author__urls li:last-child{border-bottom:none;}
+  .author__urls li:hover{background:var(--paper-2);}
   .author__urls a{color:var(--ink);} .author__urls a:hover{color:var(--terra);}
-  .author__urls .fa,.author__urls .fab,.author__urls .fas,.author__urls .ai{color:var(--sap);}
+  .author__urls .fa,.author__urls .fab,.author__urls .fas,.author__urls .ai{color:var(--sap);width:1.35em;text-align:center;}
 
   /* ---- news / honors lists: the date markers ---- */
   .page__content li{margin-bottom:.45em;}
