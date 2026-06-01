@@ -20,4 +20,178 @@
 </script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
 
+<!-- ============================================================
+     Custom aesthetic layer — "living paper" editorial scholar
+     Palette echoes the HoloSoul design language (aged paper /
+     ink / sap-green / chinagraph-terracotta). Type: Fraunces
+     (display) x Newsreader (body). Pure CSS over the MM theme;
+     no theme/layout files are modified, so the build is safe.
+     ============================================================ -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --paper:#FBF7EE; --paper-2:#F5EFE2; --card:#FFFDF7;
+    --ink:#23262F; --ink-soft:#5F6256; --muted:#8A8676;
+    --sap:#5A6F4D; --terra:#B8523C; --indigo:#3C4F7C;
+    --rule:#E7DFCE;
+    --display:"Fraunces",Georgia,serif;
+    --body:"Newsreader",Georgia,serif;
+    --mono:"JetBrains Mono",ui-monospace,monospace;
+  }
+
+  /* ---- base ---- */
+  html{scroll-behavior:smooth;}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:var(--body);
+    font-size:1.02em;
+    line-height:1.7;
+    -webkit-font-smoothing:antialiased;
+    background-image:radial-gradient(circle at 18% -10%, #fff7e6 0, rgba(255,247,230,0) 42%),
+                     radial-gradient(circle at 110% 8%, #f0efe6 0, rgba(240,239,230,0) 46%);
+    background-attachment:fixed;
+  }
+  .page__content,.archive,.sidebar,.author__content,.layout--single{background:transparent;}
+
+  /* ---- headings ---- */
+  h1,h2,h3,h4,.author__name,.page__title,.archive__item-title{
+    font-family:var(--display);
+    color:var(--ink);
+    font-weight:600;
+    letter-spacing:-0.012em;
+  }
+  .page__content h1{
+    font-size:1.62em;
+    font-optical-sizing:auto;
+    padding-bottom:.28em;
+    margin-top:1.7em;
+    border-bottom:1px solid var(--rule);
+    position:relative;
+  }
+  /* warm accent tick under each section heading */
+  .page__content h1::after{
+    content:"";position:absolute;left:0;bottom:-1px;
+    width:2.4rem;height:2px;border-radius:2px;
+    background:linear-gradient(90deg,var(--terra),var(--sap));
+  }
+  .page__content h2{font-size:1.3em;margin-top:1.4em;}
+
+  /* ---- links ---- */
+  a{color:var(--indigo);text-decoration:none;transition:color .18s ease,background-size .25s ease;}
+  .page__content a:not(.btn){
+    background-image:linear-gradient(var(--terra),var(--terra));
+    background-size:0% 1.5px;background-repeat:no-repeat;background-position:0 100%;
+    padding-bottom:1px;
+  }
+  .page__content a:not(.btn):hover{color:var(--terra);background-size:100% 1.5px;}
+
+  /* ---- author / profile card ---- */
+  .author__avatar img{
+    border-radius:18px;
+    border:none;
+    box-shadow:0 10px 30px -12px rgba(35,38,47,.45);
+    transition:transform .4s cubic-bezier(.2,.7,.2,1),box-shadow .4s ease;
+  }
+  .author__avatar img:hover{transform:translateY(-3px) rotate(-.6deg);box-shadow:0 16px 40px -14px rgba(184,82,60,.5);}
+  .author__name{font-size:1.5em;margin:.5em 0 .15em;}
+  .author__bio{color:var(--ink-soft);font-style:italic;font-size:1.02em;}
+  .author__urls{
+    background:var(--card);
+    border:1px solid var(--rule);
+    border-radius:14px;
+    box-shadow:0 8px 24px -18px rgba(35,38,47,.5);
+  }
+  .author__urls li{border-bottom:1px solid #f1ecdf;}
+  .author__urls a{color:var(--ink);} .author__urls a:hover{color:var(--terra);}
+  .author__urls .fa,.author__urls .fab,.author__urls .fas,.author__urls .ai{color:var(--sap);}
+
+  /* ---- news / honors lists: the date markers ---- */
+  .page__content li{margin-bottom:.45em;}
+  .page__content li > em:first-child{
+    font-family:var(--mono);
+    font-style:normal;
+    font-size:.78em;
+    letter-spacing:.02em;
+    color:var(--terra);
+    background:#fbeee9;
+    border:1px solid #f1d9d0;
+    padding:.05em .45em;
+    border-radius:5px;
+    margin-right:.15em;
+    white-space:nowrap;
+  }
+  .page__content strong{color:var(--ink);font-weight:600;}
+
+  /* ---- publications: paper-box ---- */
+  .paper-box{
+    border-bottom:1px solid var(--rule);
+    border-radius:14px;
+    padding:1.6em 1.2em;
+    transition:background .3s ease,transform .3s ease;
+  }
+  .paper-box:hover{background:var(--paper-2);transform:translateX(3px);}
+  .paper-box .paper-box-image img{
+    border-radius:10px;
+    box-shadow:0 12px 30px -14px rgba(35,38,47,.55);
+    transition:transform .4s cubic-bezier(.2,.7,.2,1);
+  }
+  .paper-box:hover .paper-box-image img{transform:scale(1.025);}
+  .badge{
+    background:var(--sap)!important;
+    border-radius:6px;
+    font-family:var(--mono);
+    letter-spacing:.02em;
+  }
+
+  /* ---- masthead / nav ---- */
+  .masthead{
+    background:rgba(251,247,238,.82);
+    backdrop-filter:saturate(140%) blur(10px);
+    -webkit-backdrop-filter:saturate(140%) blur(10px);
+    border-bottom:1px solid var(--rule);
+  }
+  .greedy-nav{background:transparent;}
+  .greedy-nav a{
+    font-family:var(--display);
+    font-weight:500;
+    color:var(--ink);
+    letter-spacing:.005em;
+  }
+  .greedy-nav a:hover{color:var(--terra);}
+  .greedy-nav .visible-links a:before{background:var(--terra);height:2px;}
+  .lang-toggle{
+    border:1px solid var(--rule);border-radius:999px;
+    padding:.2em .7em!important;color:var(--ink)!important;
+    background:var(--card);transition:all .2s ease;
+  }
+  .lang-toggle:hover{border-color:var(--terra);color:var(--terra)!important;}
+
+  /* ---- code / misc ---- */
+  code,kbd,tt{font-family:var(--mono);background:#f4efe2;color:var(--sap);border-radius:4px;}
+  blockquote{border-left:3px solid var(--sap);color:var(--ink-soft);font-style:italic;}
+  ::selection{background:rgba(184,82,60,.18);color:var(--ink);}
+  .page__footer{background:var(--paper-2);color:var(--ink-soft);font-family:var(--body);}
+  .page__footer a{color:var(--sap);}
+
+  /* citation count chips from Google Scholar include */
+  .show_paper_citations{font-family:var(--mono);font-size:.8em;color:var(--sap);}
+
+  /* ---- one orchestrated page-load reveal ---- */
+  @keyframes hs-rise{from{opacity:0;transform:translateY(14px);}to{opacity:1;transform:none;}}
+  @media (prefers-reduced-motion:no-preference){
+    .sidebar{animation:hs-rise .7s cubic-bezier(.2,.7,.2,1) both;}
+    .page__content > *{animation:hs-rise .65s cubic-bezier(.2,.7,.2,1) both;}
+    .page__content > *:nth-child(1){animation-delay:.05s;}
+    .page__content > *:nth-child(2){animation-delay:.12s;}
+    .page__content > *:nth-child(3){animation-delay:.19s;}
+    .page__content > *:nth-child(4){animation-delay:.26s;}
+    .page__content > *:nth-child(5){animation-delay:.33s;}
+    .page__content > *:nth-child(n+6){animation-delay:.4s;}
+  }
+</style>
+
 <!-- end custom head snippets -->
