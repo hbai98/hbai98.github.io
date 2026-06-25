@@ -11,7 +11,7 @@ Please feel free to comment on [Github ![](https://img.shields.io/github/stars/h
 
 In my spare time, I enjoy cooking, playing basketball, listening to music, and learning about starting a business.
 
-I’m currently a core founder of [HoloSoul](https://holosoul.cn/) (灵映科技), building a *proactive* emotional AI companion — a "living" digital entity that initiates, adapts to your emotional state, and knows when to stay silent, blending voice, vision, and long-term memory to stay present for the people we care about.
+I’m currently a core founder of [HoloSoul](https://holosoul.cn/) (灵映科技), building a *proactive* emotional AI companion — a "living" digital entity that initiates, adapts to your emotional state, and knows when to stay silent, blending voice, vision, and long-term memory to stay present for the people we care about. ([Business plan](https://drive.google.com/file/d/1fbauPwSvxVdfW163s7A6V_wBo7LNIRLm/view?usp=sharing))
 
 <!-- - I am working with <a href='https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Haoxiang/haoxiangli'>Prof.Haoxiang Li</a> on <a href='https://www.wikiwand.com/en/Photoemission_spectroscopy'>photoemission spectroscopy</a> for quantum materials.
 - I am working with <a href='https://scholar.google.com/citations?user=G1NiRmwAAAAJ&hl=en'>Prof.Yize Chen</a> on reinforcement learning with Large Language Model(LLM). -->
