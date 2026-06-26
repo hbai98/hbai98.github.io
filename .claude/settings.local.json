@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(wc:*)",
+      "Bash(mkdir:*)",
+      "Bash(bundle exec jekyll build:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
