@@ -1,0 +1,273 @@
+% !TeX program = pdflatex
+%-------------------------
+% Resume in Latex
+% Author : Shubhi Rani
+% License : MIT
+%------------------------
+% NOTE: main.tex (English) compiles with pdfLaTeX; chinese.tex compiles with
+% XeLaTeX (it needs xeCJK). Each file carries its own "% !TeX program" magic
+% comment so they coexist in one Overleaf project regardless of the menu setting.
+
+\documentclass[letterpaper,10.8pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\newcommand{\etal}{\textit{et al}.}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-3pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE Haotian Bai}} & Email : \href{mailto:haotianwhite@outlook.com}{haotianwhite@outlook.com}\\
+    \href{https://hbai98.github.io/}{Homepage}\\
+  \href{https://scholar.google.com/citations?hl=en&user=DIy4cA0AAAAJ}{Google Scholar} & Mobile : +(86) 18018590159\\
+  \href{https://github.com/164140757}{Github: https://github.com/164140757}\\
+  \href{https://www.semanticscholar.org/author/Haotian-Bai/2153590470}{Semantic Scholar}
+ \\
+\end{tabular*}
+
+
+% \section{Research Overview}
+% My research interests lie at the intersection of machine learning and 3D vision, with a focus on multi-modality learning and the applications of foundation models.
+% %
+% Despite their growing popularity, the adoption of foundation models in 3D is limited by a critical bottleneck: the scarcity of high-quality, interactable 3D data. The primary obstacle is the lack of human-centered approaches, where individuals can effortlessly capture 3D data using handheld cameras and interact with the digital world through language prompts or physical interactions.
+% %
+% My primary objective is to empower individuals to contribute to creating a virtual 3D world using their handheld cameras, leveraging intuitive interfaces such as language prompts and physical interactions to make this process accessible and engaging.
+
+\section{Summary}
+Ph.D. Researcher and Core Founder \& Lead Architect of \href{https://holosoul.cn/}{\textbf{HoloSoul}}, working at the intersection of Generative AI, 3D Vision, and affective human--AI interaction. My mission is to move the LLM assistant from a passive \textit{responder} to a proactive \textit{social partner} --- a "living" digital entity that \textbf{initiates, adapts, and (when warranted) withdraws}, rather than waiting to be prompted. Concretely, I build \textit{identity-contingent} avatar companions that look, sound, move, and emotionally respond like a specific person, and that sustain social presence across long-term, multi-session interaction. I design and ship the full stack end-to-end --- real-time neural avatar creation (NeRF/3DGS, mask-free surface reconstruction from handheld video), a streaming ASR$\rightarrow$LLM$\rightarrow$TTS dialogue pipeline with synchronized body motion, a System-3 proactive ``heartbeat'' that decides when initiation is worth its social cost, a continuous emotional substrate that conditions \textit{when}, \textit{what}, and \textit{how} the avatar speaks (including the choice to stay meaningfully silent), and a user-steerable long-term memory architecture.
+
+\resumeItemListStart
+\resumeItem{3D Vision}
+{Investigating 3D Reconstruction Techniques [\ref{360survey}],
+Explicit NeRF Compactness [\ref{DOT}],
+Hierarchical Factorized Radiance Fields for Real-Time Dense SLAM Mapping [\ref{HiMap}],
+Mesh Extraction from Handheld Phone Cameras [\ref{Hi-NeuS}]}
+\resumeItem{Foundation Models}
+{Applying Game Theory to Domain Adaptation Problems [\ref{PMTrans}],
+Graph Models for Attention Calibration in Transformers [\ref{SCM}]}
+\resumeItem{Multi-Modality}
+{Text-Guided NeRF Composition for Coherent Multi-Object Scenes [\ref{CompoNeRF}]}
+\resumeItem{Affective \& Proactive AI Agents}
+{Identity-Contingent Avatar Companions with an Affect-Conditioned, Proactive ``Living-Entity'' Dialogue Substrate [\ref{AvatarMe}]}
+\resumeItemListEnd
+
+
+
+% Recently, I have been working on various projects,
+ % including the development of , 
+ % , and . Some of my notable contributions include , improving , and introducing 
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Shanghai University}{Shanghai, CN}
+      {Bachelor degree of Engineering in Computer Science;  GPA: 3.56/4.00}{Sep, 2017 - Jun, 2021}
+	   %{\scriptsize \textit{Courses: Operating Systems, Analysis Of Algorithms, Artificial Intelligence, Machine Learning, Probability and Statistics and Network Security.}}
+	    
+    \resumeSubheading
+      {Hong Kong University of Science and Technology}{Guangzhou, China}
+      {Ph.D. Student, Artificial Intelligence Thrust, Information Hub}{Sep, 2023 - Now}
+      \resumeItemListStart
+       \resumeItem{Supervisor}
+       {\href{https://www.hkust-gz.edu.cn/people/hui-xiong/}{Hui Xiong}, Vice President of HKUST(GZ), Fellow of AAAS, AAAI, CCF and IEEE}
+       \resumeItem{Direction}
+        {3D Vision, Foundation Models, AI Agents}
+       \resumeItemListEnd
+  
+  \resumeSubHeadingListEnd
+
+%--------TECHNICAL SKILLS------------
+\section{Technical Skills}
+	\resumeSubHeadingListStart
+	\resumeSubItem{Programming}{Python, TypeScript/JavaScript, C/C++, Dart, Java}
+	\resumeSubItem{ML \& Generative AI}{PyTorch, LLMs \& agentic systems, LangChain, diffusion \& embedding models, RAG / vector retrieval, prompt \& inference optimization}
+	\resumeSubItem{3D Vision \& Graphics}{NeRF, 3D Gaussian Splatting, neural surface reconstruction, dense SLAM, multi-view geometry, mesh processing, Blender}
+	\resumeSubItem{Systems \& Full-Stack}{Node.js, Flutter, Supabase/PostgreSQL, real-time streaming (WebSocket/SSE), ASR/TTS pipelines, REST APIs, Docker, Git/CI, cloud deployment}
+	\resumeSubItem{Languages}{Mandarin (native), English (professional working proficiency)}
+\resumeSubHeadingListEnd
+
+
+
+%-----------EXPERIENCE-----------------
+\section{Work Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+    {The Chinese University of Hong Kong}{Shenzhen, CN}
+    {Research Assistant}{ July 2021 - Mar 2022}
+    \resumeItemListStart
+        \resumeItem{Supervisor}
+        {\href{http://www.zhangruimao.site/}{Ruimao Zhang}, Research Assistant Professor (Computer Vision, Deep Learning)}
+        \resumeItem{Direction}
+        {Medical Image Analysis, Deep Learning Architecture Design}
+        \begin{description}[font=$\bullet$]
+        \resumeItem{Project}
+          {Developed a large-scale, clinical, and diverse abdominal multi-organ segmentation benchmark. \\ \href{http://www.amos.sribd.cn/}{[Website]}\href{https://openreview.net/forum?id=Vk4-HUnkEak}{[OpenReview]}\href{https://amos22.grand-challenge.org}{[Grand Challenge]}}
+          \end{description}
+    \resumeItemListEnd
+
+    \resumeSubheading
+    {The Hong Kong University of Science and Technology}{Guangzhou, CN}
+    {Research Assistant}{May 2022 - Aug 2023}
+    \resumeItemListStart
+    \resumeItem{Supervisor}{\href{https://vlislab22.github.io/vlislab/people.html}{Lin Wang}, Assistant Professor(Computer Vision, Event Camera, 360 Camera)}
+    \resumeItem{Direction}{3D Vision and multi-modality learning}
+    \begin{description}[font=$\bullet$]
+    \resumeItem{Project}
+{Collaborated with OPPO (Corp) on a joint language-image 3D reconstruction project.}
+    \end{description}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\section{Startup}
+  \resumeSubHeadingListStart
+  \resumeSubheading
+    {\href{https://holosoul.cn/}{HoloSoul} --- Emotional AI Companion Startup \href{https://drive.google.com/file/d/1fbauPwSvxVdfW163s7A6V_wBo7LNIRLm/view?usp=sharing}{[Business Plan]}}{Guangzhou, CN}
+    {Founder \& Lead Architect}{Jan 2024 - Present}
+    \resumeItemListStart
+        \resumeItem{Mission} {Architecting ``Avatars with Soul'' --- proactive, identity-contingent digital companions that turn the LLM assistant from a passive responder into a \textit{living social partner} which initiates, adapts to the user's emotional state, and chooses when to fall silent, sustaining presence with a specific absent person across long-term interaction.}
+        \resumeItem{Proactive ``Living-Entity'' Engine} {Designed a System-3 ``heartbeat'' orchestrator (Sophia) and friction detector that decide \textit{when} initiation is worth its social cost, plus a tiered dispatch ladder (active-listening backchannels, continuation cues, soft proactive turns) and an emotion-conditioned \textit{intentional-silence} vocabulary --- so the avatar speaks, listens, or holds space like a real companion rather than only reacting to prompts.}
+        \resumeItem{Affective Substrate} {Built a continuous K=8 emotion-vector substrate that conditions \textit{when/what/how} the avatar speaks, deployed as a closed-API-faithful proxy of Anthropic's residual-stream emotion-direction result via sentence embeddings (behavioral P@1 $\approx$ 0.89). Added a two-channel UI (avatar's regulated mood vs.\ perceived user mood) and a no-mirror ``AI-amplifier'' safeguard that registers user emotion without amplifying negative states.}
+        \resumeItem{Identity-Contingent Avatar Creation} {Lightweight pipeline turning a casual photo, a short voice clip, and persona text into a rigged 3D avatar with cloned voice and text-driven body motion (leveraging my \textit{Hi-NeuS} mask-free neural surface reconstruction) --- enabling non-experts to clone a specific person with minimal effort.}
+        \resumeItem{Real-Time Multimodal Stack} {Engineered the streaming ASR$\rightarrow$LLM$\rightarrow$TTS pipeline with synchronized semantic body-motion animation, barge-in, and a user-steerable long-term memory ``social brain'' (graph-associative recall + bounded persona evolution + keep/forget/share curation).}
+        \resumeItem{Deployment \& Impact} {Shipped a cross-platform web product and cloud backend (currently preparing a native iOS release); validated through a paired-user field study. Recognized with a \textbf{Bronze Medal} at the International Exhibition of Inventions of Geneva (2026), and \textbf{Third Prize} \& a finals berth at the Guangzhou Sci-Tech Innovation \& HKUST Million Dollar Entrepreneurship Competition (\href{https://kjj.gz.gov.cn/gsxx/content/post_10524225.html}{official announcement}).}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+%-----------PROJECTS-----------------
+\section{Publications}
+
+\begin{enumerate}
+
+\item \textbf{H. Bai} \etal "AvatarMe: Identity-Contingent Avatar Companions for Sustaining Social Connection." \textit{Manuscript under review}, UIST 2026. \textit{(Identity-contingent avatar cloning + proactive, affect-conditioned companionship; lead author, system design and two-stage user study.)} \label{AvatarMe}
+\item \textbf{H. Bai} \etal "High-Fidelity Mask-free Neural Surface Reconstruction for Virtual Reality. " arXiv, 2024. \href{http://arxiv.org/abs/2409.13158}{[pdf]} \href{https://vlislab22.github.io/Hi-NeuS/}{[Project Website]}\label{Hi-NeuS}
+\item T. Hua$^*$, \textbf{H. Bai$^*$} \etal "Hi-Map: Hierarchical Factorized Radiance Field for High-Fidelity Monocular Dense Mapping. " arXiv, 2024. \href{https://arxiv.org/abs/2401.03203}{[pdf]} \href{https://github.com/thua919/Hi-Map}{[code]} \href{https://vlis2022.github.io/fmap/}{[Project Website]} \label{HiMap}
+\item \textbf{H. Bai} \etal "Dynamic PlenOctree for Adaptive Sampling Refinement in Explicit NeRF. " ICCV, 2023. \href{https://github.com/164140757/DOT}{[code]} \href{https://arxiv.org/abs/2307.15333}{[pdf]} \href{https://www.youtube.com/watch?v=i9MnoFhH8Ec}{[video]} \label{DOT}
+\item J. Zhu$^*$, \textbf{H. Bai$^*$} \etal "Patch-Mix Transformer for Unsupervised Domain Adaptation: A Game Perspective. " CVPR, 2023 (\textbf{\textcolor{red}{Highlight}}, 2.5\%) \href{https://openreview.net/forum?id=T39lkzQ4iU}{[OpenReview]} \href{https://arxiv.org/abs/2303.13434}{[pdf]}
+\href{https://github.com/JinjingZhu/PMTrans}{[code]}
+\label{PMTrans}
+\item \textbf{H. Bai} \etal "CompoNeRF: Text-guided Multi-object Compositional NeRF with Editable 3D Scene Layout. " arXiv, 2023. \href{https://arxiv.org/abs/2303.13843}{[pdf]} \href{https://vlislab22.github.io/componerf/}{[Project Website]}\label{CompoNeRF}
+\item Y. Ji, \textbf{H. Bai} \etal "AMOS: A large-scale abdominal multi-organ benchmark for versatile medical image segmentation." (\textbf{\textcolor{red}{Oral}}) NeurIPS Datasets and Benchmarks, 2022. \href{https://arxiv.org/abs/2206.08023}{[pdf]}\href{http://www.amos.sribd.cn/}{[Project Website]}
+\item \textbf{H. Bai} \etal "Weakly Supervised Object Localization via Transformer with Implicit Spatial Calibration. " ECCV, 2022. \href{https://github.com/164140757/SCM}{[code]} \href{https://arxiv.org/abs/2207.10447}{[pdf]} \href{https://www.youtube.com/watch?v=zQdUudmTPOQ}{[video]} \label{SCM}
+\item H. Ai, Z. Cao, J. Zhu, \textbf{H. Bai} \etal "Deep Learning for Omnidirectional Vision: A Survey and New Perspectives." arXiv, 2022. \href{https://arxiv.org/abs/2205.10468}{[pdf]} \label{360survey}
+\end{enumerate}
+
+%-----------Talks-----------------
+\section{Invited Talks}
+\begin{itemize}
+    \item The global Ph.D. talk for sharing papers accepted in ECCV 2022, International Science and Technology Information Center, Tsinghua University\href{https://www.aitime.cn}{[AI TIME]}. 
+    \href{https://www.bilibili.com/video/BV1c44y1D769}{[video]}
+    (December 2022)
+\end{itemize}
+
+%-----------Programs-----------------
+\section{Selected Programs \& Leadership}
+\begin{description}[font=$\bullet$]
+\item {\textbf{Global Grand Challenges Summit} (Royal Academy of Engineering), London, UK --- selected as \textbf{1/300} Chinese undergraduate representatives. \textit{(Sep 2019)}}
+\item {\textbf{Leadership Program}, The Wharton School, University of Pennsylvania, US --- selected as \textbf{1/30} undergraduate representatives. \textit{(Jul 2019)}}
+\item {\textbf{PET Applications in Neurological Diseases}, Huashan Hospital, Fudan University, Shanghai, CN. \textit{(Jan 2019)}}
+\end{description}
+
+\section{Academic Service}
+\resumeSubHeadingListStart
+\item{\textbf{Reviewer} for IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2024.}
+
+\item{\textbf{Reviewer} for Transactions on Multimedia Computing Communications and Applications (TOMM), 2024}
+
+\item{\textbf{Reviewer} for IEEE Transactions on Image Processing (TIP), 2024}
+\resumeSubHeadingListEnd
+%-----------Softwares-----------------
+\section{Software}
+\resumeSubHeadingListStart
+\item{\textbf{BNMatch2}, a protein network analysis app using a global mapping algorithm.
+\href{https://github.com/164140757/Dynamic-Network-Algorithm}{[code]}
+\href{https://apps.cytoscape.org/apps/bnmatch2}{[website]}}
+
+\item{\textbf{DKernel}, a network app for diffusing and propagating information.
+\href{https://github.com/164140757/Dynamic-Network-Algorithm}{[code]}
+\href{https://apps.cytoscape.org/apps/dkernel}{[website]}}
+\item{\textbf{Diabolo}, a puzzle game on WeChat. (Search it at the WeChat mini program.) }
+\resumeSubHeadingListEnd
+
+%-----------Awards-----------------
+\section{Honors and Awards}
+\begin{description}[font=$\bullet$]
+\item {\textbf{Bronze Medal}, International Exhibition of Inventions of Geneva (HoloSoul), April 2026.}
+\item {Third Prize \& Finalist, Guangzhou Sci-Tech Innovation \& HKUST Million Dollar Entrepreneurship Competition (HoloSoul), 2025.}
+\item {The third municipal prize in the national math modeling competition.}
+\item {The successful participation prize in MCM/ICM, 2019 American mathematical modeling competition.} 
+\item {The third national prize in the China University program development competition.}
+\item {The third municipal prize in the 2019 National College Students Extracurricular Academic Practice Competition(Alzheimer).}
+\item {The bronze Cup in Undergraduate Business Plan Competition (Robot Cleaner).}
+\item {The academic scholarship (2017)}
+\end{description}
+
+%-------------------------------------------
+\end{document}

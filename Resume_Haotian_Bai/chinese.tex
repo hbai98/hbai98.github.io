@@ -1,0 +1,246 @@
+% !TeX program = xelatex
+% NOTE: This file uses fontspec + xeCJK for Chinese (Noto Serif CJK SC) and
+% MUST be compiled with XeLaTeX (or LuaLaTeX) — pdfLaTeX fails with a
+% "fontspec requires either XeTeX or LuaTeX" fatal error.
+% IMPORTANT: Overleaf IGNORES the "% !TeX program" line above. You must set
+% the engine manually: Menu -> Settings -> Compiler -> XeLaTeX, then recompile.
+% main.tex has been made XeLaTeX-compatible too, so one XeLaTeX setting
+% compiles both files in the same project.
+\documentclass{article}
+\usepackage{fontspec}
+\usepackage{xeCJK}
+
+\setmainfont{Times New Roman}
+\setCJKmainfont{Noto Serif CJK SC}
+
+\usepackage{latexsym}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+
+\newcommand{\etal}{\textit{et al}.}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-3pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE 白皓天}} & 邮箱: \href{mailto:haotianwhite@outlook.com}{haotianwhite@outlook.com}\\
+  \href{https://hbai98.github.io/}{个人主页}\\
+  \href{https://scholar.google.com/citations?hl=en&user=DIy4cA0AAAAJ}{Google Scholar} & 手机: +(86) 18018590159\\
+  \href{https://github.com/164140757}{Github: https://github.com/164140757}\\
+  \href{https://www.semanticscholar.org/author/Haotian-Bai/2153590470}{Semantic Scholar}
+ \\
+\end{tabular*}
+
+\section{概述}
+博士研究员，灵映科技（\href{https://holosoul.cn/}{\textbf{HoloSoul}}）核心创始人兼首席架构师，研究方向位于生成式 AI、3D 视觉与情感化人机交互的交叉领域。我的使命是让大语言模型助手从被动的\textit{“应答者”}转变为主动的\textit{“社交伙伴”}——一个会\textbf{主动发起、动态适应、并在适当时选择退场沉默}的“有灵魂”的数字生命，而非被动等待提问。具体而言，我构建\textit{身份贴合}（identity-contingent）的虚拟形象陪伴体：在外貌、声音、动作与情感反应上贴合某个特定的人，并在长期、多轮交互中持续维系社交在场感。我端到端地设计并交付完整技术栈——实时神经虚拟形象生成（NeRF/3DGS、基于手持视频的免掩膜表面重建）、带同步肢体动作的流式 ASR$\rightarrow$LLM$\rightarrow$TTS 对话管线、判断“何时主动开口值得其社交成本”的 System-3 主动“心跳”机制、调控虚拟形象\textit{何时}/\textit{说什么}/\textit{如何表达}（包括何时保持有意义的沉默）的连续情感基底，以及用户可调控的长期记忆架构。
+
+\resumeItemListStart
+\resumeItem{3D视觉}
+{研究3D重建技术 [\ref{360survey}]，显式NeRF表征存储压缩 [\ref{DOT}]，用于实时稠密SLAM建图的层次化分解辐射场 [\ref{HiMap}]，面向VR的免掩膜神经表面重建 [\ref{Hi-NeuS}]}
+\resumeItem{基础模型}
+{在域适应问题中应用博弈论 [\ref{PMTrans}]，用于Transformer中注意力校准的图模型 [\ref{SCM}]}
+\resumeItem{多模态}
+{基于文本指导的多物体组合式NeRF场景合成 [\ref{CompoNeRF}]}
+\resumeItem{情感化与主动式AI智能体}
+{身份贴合的虚拟形象陪伴体，搭载情感条件化、主动式的“有灵魂”对话基底 [\ref{AvatarMe}]}
+\resumeItemListEnd
+
+%-----------EDUCATION-----------------
+\section{教育背景}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {上海大学}{中国上海}
+      {计算机科学工程学学士学位;  GPA: 3.56/4.00}{2017年9月 - 2021年6月}
+	    
+    \resumeSubheading
+      {香港科技大学}{中国广州}
+      {博士生，人工智能学域，信息枢纽}{2023年9月 - 至今}
+  \resumeSubHeadingListEnd
+
+%--------TECHNICAL SKILLS------------
+\section{技术技能}
+	\resumeSubHeadingListStart
+	\resumeSubItem{编程语言}{Python、TypeScript/JavaScript、C/C++、Dart、Java}
+	\resumeSubItem{机器学习与生成式AI}{PyTorch、大语言模型与智能体系统、LangChain、扩散与嵌入模型、RAG/向量检索、提示工程与推理优化}
+	\resumeSubItem{3D视觉与图形学}{NeRF、3D 高斯泼溅、神经表面重建、稠密 SLAM、多视图几何、网格处理、Blender}
+	\resumeSubItem{系统与全栈}{Node.js、Flutter、Supabase/PostgreSQL、实时流式传输（WebSocket/SSE）、ASR/TTS 管线、REST API、Docker、Git/CI、云端部署}
+	\resumeSubItem{语言}{中文（母语）、英语（专业工作水平）}
+\resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------------
+\section{工作经历}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+    {香港中文大学}{中国深圳}
+    {研究助理}{2021年7月 - 2022年3月}
+    \resumeItemListStart
+        \resumeItem{导师}
+        {张瑞茂, 研究助理教授 (计算机视觉，深度学习)}
+        \resumeItem{方向}
+        {医学图像分析, 深度学习架构设计}
+        \begin{description}[font=$\bullet$]
+        \resumeItem{项目}
+          {开发了一个大规模、临床、多样化的腹部多器官分割基准数据集。 \\ \href{http://www.amos.sribd.cn/}{[网站]}\href{https://openreview.net/forum?id=Vk4-HUnkEak}{[OpenReview]}\href{https://amos22.grand-challenge.org}{[Grand Challenge]}}
+          \end{description}
+      \resumeItemListEnd
+
+    \resumeSubheading
+    {香港科技大学}{中国广州}
+    {研究助理}{2022年5月 - 2023年8月}
+    \resumeItemListStart
+    \resumeItem{导师}{王林, 助理教授(计算机视觉, 事件相机, 360相机)}
+    \resumeItem{方向}{3D视觉和多模态学习}
+    \begin{description}[font=$\bullet$]
+    \resumeItem{项目}
+{与OPPO公司合作开展联合语言-图像3D重建项目。}
+    \end{description}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------Startup-----------------
+\section{创业}
+  \resumeSubHeadingListStart
+  \resumeSubheading
+    {灵映科技（\href{https://holosoul.cn/}{HoloSoul}）—— 情感AI陪伴创业项目 \href{https://drive.google.com/file/d/1fbauPwSvxVdfW163s7A6V_wBo7LNIRLm/view?usp=sharing}{[商业计划书]}}{中国广州}
+    {创始人兼首席架构师}{2024年1月 - 至今}
+    \resumeItemListStart
+        \resumeItem{使命}{打造“有灵魂的虚拟形象”——主动式、身份贴合的数字陪伴体，将大语言模型助手从被动应答者转变为会主动发起、感知并适应用户情绪、并懂得何时保持沉默的\textit{活的社交伙伴}，在长期交互中与某个特定的远方之人维系社交在场感。}
+        \resumeItem{主动式“数字生命”引擎}{设计了 System-3“心跳”编排器（Sophia）与摩擦检测器，判断\textit{何时}主动发起值得其社交成本；并构建分层调度阶梯（主动倾听式回应、续话提示、轻量主动话轮）与情感条件化的\textit{有意识沉默}词表——使虚拟形象能像真实陪伴者一样开口、倾听或留白，而不只是被动响应提问。}
+        \resumeItem{情感基底}{构建了调控虚拟形象“何时/说什么/如何表达”的连续 K=8 情感向量基底，以句向量作为对 Anthropic 残差流情感方向结果的闭源 API 忠实代理进行部署（行为检索 P@1 $\approx$ 0.89）。引入双通道 UI（虚拟形象的调控情绪 vs.\ 感知到的用户情绪）与“反镜像”AI 放大防护，在不放大用户负面情绪的前提下确认其情绪被接住。}
+        \resumeItem{身份贴合的虚拟形象生成}{轻量管线：将一张随手照片、一段短语音与人设文本转化为可绑定骨骼的 3D 虚拟形象，具备克隆音色与文本驱动的肢体动作（基于本人 \textit{Hi-NeuS} 免掩膜神经表面重建）——使非专业用户也能以极低门槛克隆某个特定的人。}
+        \resumeItem{实时多模态技术栈}{工程化实现带同步语义肢体动作的流式 ASR$\rightarrow$LLM$\rightarrow$TTS 管线、打断（barge-in），以及用户可调控的长期记忆“社交大脑”（图关联回忆 + 有界人格演化 + 保留/遗忘/分享的记忆策展）。}
+        \resumeItem{落地与影响}{已交付跨平台 Web 产品与云端后端（正在准备原生 iOS 版本）；通过成对用户实地研究验证。荣获\textbf{日内瓦国际发明展铜奖}（2026），并在\textbf{广州科技创新暨港科大百万奖金创业大赛}中荣获\textbf{三等奖}并晋级决赛（详见\href{https://kjj.gz.gov.cn/gsxx/content/post_10524225.html}{官方公告}）。}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------Publications-----------------
+\section{出版物}
+
+\begin{enumerate}
+
+\item \textbf{H. Bai} 等, "AvatarMe: Identity-Contingent Avatar Companions for Sustaining Social Connection." \textit{审稿中}, UIST, 2026. \textit{（身份贴合的虚拟形象克隆 + 主动式、情感条件化的陪伴；第一作者，负责系统设计与两阶段用户研究。）} \label{AvatarMe}
+\item \textbf{H. Bai} 等, "High-Fidelity Mask-free Neural Surface Reconstruction for Virtual Reality. " arXiv, 2024. \href{http://arxiv.org/abs/2409.13158}{[pdf]} \href{https://vlislab22.github.io/Hi-NeuS/}{[项目网站]} \label{Hi-NeuS}
+\item T. Hua$^*$, \textbf{H. Bai$^*$} 等, "Hi-Map: Hierarchical Factorized Radiance Field for High-Fidelity Monocular Dense Mapping. " arXiv, 2024. \href{https://arxiv.org/abs/2401.03203}{[pdf]} \href{https://github.com/thua919/Hi-Map}{[代码]} \href{https://vlis2022.github.io/fmap/}{[项目网站]} \label{HiMap}
+\item \textbf{H. Bai} 等, "Dynamic PlenOctree for Adaptive Sampling Refinement in Explicit NeRF. " ICCV, 2023. \href{https://github.com/164140757/DOT}{[代码]} \href{https://arxiv.org/abs/2307.15333}{[pdf]} \href{https://www.youtube.com/watch?v=i9MnoFhH8Ec}{[视频]} \label{DOT}
+\item J. Zhu$^*$, \textbf{H. Bai$^*$} 等, "Patch-Mix Transformer for Unsupervised Domain Adaptation: A Game Perspective. " CVPR, 2023 (\textbf{\textcolor{red}{highlight}}, 2.5\%) \href{https://openreview.net/forum?id=T39lkzQ4iU}{[OpenReview]} \href{https://arxiv.org/abs/2303.13434}{[pdf]} \href{https://github.com/JinjingZhu/PMTrans}{[代码]}
+\label{PMTrans}
+\item \textbf{H. Bai} 等, "CompoNeRF: Text-guided Multi-object Compositional NeRF with Editable 3D Scene Layout. " arXiv, 2023. \href{https://arxiv.org/abs/2303.13843}{[pdf]} \href{https://vlislab22.github.io/componerf/}{[项目网站]} \label{CompoNeRF}
+\item Y. Ji, \textbf{H. Bai} 等, "AMOS: A large-scale abdominal multi-organ benchmark for versatile medical image segmentation." (\textbf{\textcolor{red}{oral}}) NeurIPS数据集和基准, 2022. \href{https://arxiv.org/abs/2206.08023}{[pdf]} \href{http://www.amos.sribd.cn/}{[项目网站]}
+\item \textbf{H. Bai} 等, "Weakly Supervised Object Localization via Transformer with Implicit Spatial Calibration. " ECCV, 2022. \href{https://github.com/164140757/SCM}{[代码]} \href{https://arxiv.org/abs/2207.10447}{[pdf]} \href{https://www.youtube.com/watch?v=zQdUudmTPOQ}{[视频]} \label{SCM}
+\item H. Ai, Z. Cao, J. Zhu, \textbf{H. Bai} 等, "Deep Learning for Omnidirectional Vision: A Survey and New Perspectives." arXiv, 2022. \href{https://arxiv.org/abs/2205.10468}{[pdf]} \label{360survey}
+\end{enumerate}
+
+%-----------Talks-----------------
+\section{受邀演讲}
+\begin{itemize}
+    \item 全球博士生演讲，分享ECCV 2022年接受的论文，清华大学国际科技信息中心\href{https://www.aitime.cn}{[AI TIME]}. \href{https://www.bilibili.com/video/BV1c44y1D769}{[视频]} (2022年12月)
+\end{itemize}
+
+%-----------Programs-----------------
+\section{精选项目与领导力经历}
+\begin{description}[font=$\bullet$]
+\item {\textbf{全球重大挑战峰会}（英国皇家工程院），英国伦敦——入选中国本科生代表（\textbf{1/300}）。\textit{（2019年9月）}}
+\item {\textbf{领导力项目}，宾夕法尼亚大学沃顿商学院，美国——入选本科生代表（\textbf{1/30}）。\textit{（2019年7月）}}
+\item {\textbf{PET在神经系统疾病中的应用}，复旦大学华山医院，中国上海。\textit{（2019年1月）}}
+\end{description}
+\section{学术服务}
+\resumeSubHeadingListStart
+\item{\textbf{审稿人}，IEEE《模式分析与机器智能学报》（TPAMI），2024年。}
+
+\item{\textbf{审稿人}，《多媒体计算、通信与应用学报》（TOMM），2024年。}
+
+\item{\textbf{审稿人}，IEEE《图像处理学报》（TIP），2024年。}
+\resumeSubHeadingListEnd
+
+%-----------软件-----------------
+\section{软件}
+\resumeSubHeadingListStart
+\item{\textbf{BNMatch2}，一种使用全局映射算法的蛋白质网络分析应用。
+\href{https://github.com/164140757/Dynamic-Network-Algorithm}{[代码]}
+\href{https://apps.cytoscape.org/apps/bnmatch2}{[网站]}}
+
+\item{\textbf{DKernel}，一种用于扩散和传播信息的网络应用。
+\href{https://github.com/164140757/Dynamic-Network-Algorithm}{[代码]}
+\href{https://apps.cytoscape.org/apps/dkernel}{[网站]}}
+\item{\textbf{Diabolo}，一款在微信上的益智游戏。（在微信小程序中搜索。）}
+\resumeSubHeadingListEnd
+
+%-----------奖项-----------------
+\section{荣誉与奖项}
+\begin{description}[font=$\bullet$]
+\item {\textbf{日内瓦国际发明展铜奖}（灵映科技），2026年4月。}
+\item {\textbf{广州科技创新暨港科大百万奖金创业大赛}三等奖及决赛入围（灵映科技），2025年。}
+\item {全国数学建模竞赛三等奖。}
+\item {2019年美国数学建模竞赛（MCM/ICM）成功参赛奖。} 
+\item {中国大学程序开发竞赛三等奖。}
+\item {2019年全国大学生课外学术实践活动竞赛（阿尔茨海默症）三等奖。}
+\item {本科商业计划竞赛（机器人清洁器）铜奖。}
+\item {学业奖学金（2017年）。}
+\end{description}
+\end{document}
