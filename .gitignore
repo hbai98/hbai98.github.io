@@ -1,3 +1,7 @@
 _site/
 push.sh
 .DS_Store
+
+# private interview prep — lives in the separate private repo hbai98/interview
+interview/
+_to_delete/
