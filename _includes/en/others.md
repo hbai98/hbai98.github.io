@@ -10,5 +10,8 @@
 
 # 💻 Internships
 
+- *2026.10 - present*, Research Intern at rednote, Interaction Lab.
+  - Explore how experience shared in the rednote community and a person's browsing, searches, and saved posts could help them through glasses, away from the phone.
+  - Research memory for an ongoing stream of sights and sounds: what to keep, how to store it, and when to recall it, so the companion can help at the right moment and earn the person's trust.
 - *2022.05 - 2023.08*, research assistant at AI Thrust, Info Hub in HKUST(GZ), supervised by <a href='https://vlislab22.github.io/vlislab/linwang.html'>Prof. Addison Lin Wang (王林)</a>.
 - *2021.07 - 2022.04*, research assistant at School of Data Science, CUHKSZ, supervised by <a href='http://www.zhangruimao.site/'>Prof. Ruimao Zhang (张瑞茂)</a>.

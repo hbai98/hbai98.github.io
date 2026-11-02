@@ -1,3 +1,9 @@
+# 正在做的事
+
+我目前在小红书 Interaction Lab 担任科研实习生，研究AI眼镜上的生活搭子。一方面，探索如何把社区经验和个人浏览、搜索、收藏的习惯带到眼前的场景里；另一方面，面对不断看到、听到的内容，研究该记什么、怎么存、什么时候想起来。
+
+[为什么我想做AI眼镜](/zh/essays/#ai-glasses-in-everyday-life)。
+
 # 📝 学术论文
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='{{ "/images/hi-neus.png" | relative_url }}' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">

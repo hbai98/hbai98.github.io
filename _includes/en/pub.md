@@ -1,3 +1,9 @@
+# Current work
+
+I'm a Research Intern at rednote's Interaction Lab, working on AI companions for glasses. I study how community experience and a person's browsing, searches, and saved posts could help them in the situation they are in. I also research memory as sights and sounds keep coming in: what to keep, how to save it, and when to bring it up.
+
+[Why I want to work on AI glasses](/essays/#ai-glasses-in-everyday-life).
+
 # 📝 Publications
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='{{ "/images/hi-neus.png" | relative_url }}' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">

@@ -1,17 +1,15 @@
 
-Hello, my name is Haotian Bai(白皓天). I am currently pursuing a Ph.D. in computer vision, AI Thrust, at HKUST's Guangzhou campus, supervised by Prof. <a href='https://www.hkust-gz.edu.cn/people/hui-xiong/'>Hui Xiong(熊辉)</a>.
+Hi, I'm Haotian Bai (白皓天), a Ph.D. student in Artificial Intelligence at HKUST(GZ), advised by Prof. <a href='https://www.hkust-gz.edu.cn/people/hui-xiong/'>Hui Xiong (熊辉)</a>. Since October 2026, I've been a Research Intern at rednote's Interaction Lab.
 
-For a deeper personal story, see my <a href="/essays/">Musings</a>.
+I work on AI companions, AI glasses, and memory. I'm interested in how experience shared in the rednote community, together with a person's browsing, searches, and saved posts, could help them in everyday situations. My current work asks what glasses should remember from what they see and hear, and when those memories would be useful.
 
-My research spans 3D reconstruction (with a focus on Neural Radiance Fields, NeRF) and, more recently, proactive, affect-aware human--AI interaction. I am also interested in robotics, specifically simultaneous localization and mapping (SLAM). For my work, see <a href="/pub/">Work</a>.
-<!-- Beyond that, my personal research interests include graph theory, complex systems, life science especially aging, physics(thermodynamics),and deep reinforcement learning (DRL). -->
-My papers <a href='https://scholar.google.com/citations?user=DIy4cA0AAAAJ'><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fhbai98%2Fhbai98.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> are accepted at prestigious AI conferences such as CVPR, ICCV, ECCV, and NeurIPS.
-I also serve as reviewers on well known journals including TPAMI, TOMM, and TIP.
-Please feel free to comment on [Github ![](https://img.shields.io/github/stars/hbai98?style=social)](https://github.com/hbai98) for further discussion on my works.
+I also founded [HoloSoul](https://holosoul.cn/) (灵映科技), where I built and shipped an AI companion with voice interaction, an avatar, and memory across conversations. Building it has made me pay more attention to why someone would need a companion and choose to keep using it. ([Business plan](https://drive.google.com/file/d/1fbauPwSvxVdfW163s7A6V_wBo7LNIRLm/view?usp=sharing))
 
-In my spare time, I enjoy cooking, playing basketball, listening to music, and learning about starting a business.
+My earlier research focused on reconstructing 3D scenes and mapping the environment around a moving camera. You can find my research on the <a href="/pub/">Work</a> page and more personal reflections in <a href="/essays/">Musings</a>.
 
-I’m currently a core founder of [HoloSoul](https://holosoul.cn/) (灵映科技), building a *proactive* emotional AI companion — a "living" digital entity that initiates, adapts to your emotional state, and knows when to stay silent, blending voice, vision, and long-term memory to stay present for the people we care about. ([Business plan](https://drive.google.com/file/d/1fbauPwSvxVdfW163s7A6V_wBo7LNIRLm/view?usp=sharing))
+My papers <a href='https://scholar.google.com/citations?user=DIy4cA0AAAAJ'><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fhbai98%2Fhbai98.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> have appeared at CVPR, ICCV, ECCV, and NeurIPS. I review for TPAMI, TOMM, and TIP. You can also find my projects on [GitHub ![](https://img.shields.io/github/stars/hbai98?style=social)](https://github.com/hbai98).
+
+Outside work, I enjoy cooking, basketball, music, and learning about starting a business.
 
 <!-- - I am working with <a href='https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Haoxiang/haoxiangli'>Prof.Haoxiang Li</a> on <a href='https://www.wikiwand.com/en/Photoemission_spectroscopy'>photoemission spectroscopy</a> for quantum materials.
 - I am working with <a href='https://scholar.google.com/citations?user=G1NiRmwAAAAJ&hl=en'>Prof.Yize Chen</a> on reinforcement learning with Large Language Model(LLM). -->

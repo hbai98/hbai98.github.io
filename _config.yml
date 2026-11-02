@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Haotian Bai（白皓天）"
-description              : "Stay hungry. Stay foolish. Yesterday is history, tomorrow is a mystery, today is a gift of God, which is why we call it the present. "
+description              : "Haotian Bai: AI companions, glasses, and memory. PhD student at HKUST(GZ) and Research Intern at rednote Interaction Lab."
 repository               : "hbai98/haotianbai.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  : # get baidu_site_verification from https://ziyuan.bai
 author:
   name             : "Haotian Bai"
   avatar           : "/images/android-chrome-512x512.png"
-  bio              : "PhD student at AI Thrust of HKUST (GZ)"
+  bio              : "PhD student at HKUST(GZ); Research Intern at rednote Interaction Lab"
   location         : "Guangzhou, China"
   employer         : 
   pubmed           : 
