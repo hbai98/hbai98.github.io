@@ -38,6 +38,12 @@ A friend on our startup team and I bought a holographic display from the US. I w
 
 Over the past year, I built and shipped [HoloSoul](https://holosoul.cn/) to try that idea. I worked on the software and spent time asking a harder question: why would someone need it? Building the product made that question concrete. I had to think about what would bring someone back, what they would miss if it disappeared, and whether they would pay for it. Those questions still guide what I choose to build.
 
+We formed a team to explore AI companions and memory, and took HoloSoul to the Geneva inventions exhibition and the HKUST Million Dollar Entrepreneurship Competition. We also talked with potential customers about digital projects. Some of their ideas were unusual, and I still remember them clearly.
+
+This was also my first time working on hardware myself. I worked on the holographic display design, compared chips, and tried running language models on cheaper devices to reduce costs.
+
+For much of that year, I spent nearly all my time on the product and published very few papers as a Ph.D. student. I learned a lot from building with the team. My active founder and chief architect role ended in October 2026.
+
 </div>
 </section>
 

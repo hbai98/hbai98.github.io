@@ -3,7 +3,7 @@ Hi, I'm Haotian Bai (白皓天), a Ph.D. student in Artificial Intelligence at H
 
 I work on AI companions, AI glasses, and memory. I'm interested in how experience shared in the rednote community, together with a person's browsing, searches, and saved posts, could help them in everyday situations. My current work asks what glasses should remember from what they see and hear, and when those memories would be useful.
 
-I also founded [HoloSoul](https://holosoul.cn/) (灵映科技), where I built and shipped an AI companion with voice interaction, an avatar, and memory across conversations. Building it has made me pay more attention to why someone would need a companion and choose to keep using it. ([Business plan](https://drive.google.com/file/d/1fbauPwSvxVdfW163s7A6V_wBo7LNIRLm/view?usp=sharing))
+I previously founded [HoloSoul](https://holosoul.cn/) (灵映科技), where I built and shipped an AI companion with voice interaction, an avatar, and memory across conversations. Building it has made me pay more attention to why someone would need a companion and choose to keep using it. ([Business plan](https://drive.google.com/file/d/1fbauPwSvxVdfW163s7A6V_wBo7LNIRLm/view?usp=sharing))
 
 My earlier research focused on reconstructing 3D scenes and mapping the environment around a moving camera. You can find my research on the <a href="/pub/">Work</a> page and more personal reflections in <a href="/essays/">Musings</a>.
 

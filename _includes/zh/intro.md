@@ -11,4 +11,4 @@
 
 业余时间，我喜欢烹饪、打篮球、听音乐，也在学习创业知识。
 
-我也是[灵映科技（HoloSoul）](https://holosoul.cn/)的核心创始人，做过AI陪伴产品。我们希望让AI角色记住相处的经历，慢慢成长，在合适的时候主动开口，也懂得安静陪伴。（[商业计划书](https://drive.google.com/file/d/1fbauPwSvxVdfW163s7A6V_wBo7LNIRLm/view?usp=sharing)）
+我也曾与团队一起创办[灵映科技（HoloSoul）](https://holosoul.cn/)，开发AI陪伴产品。我们希望让AI角色记住相处的经历，慢慢成长，在合适的时候主动开口，也懂得安静陪伴。（[商业计划书](https://drive.google.com/file/d/1fbauPwSvxVdfW163s7A6V_wBo7LNIRLm/view?usp=sharing)）
