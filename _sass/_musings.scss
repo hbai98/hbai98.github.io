@@ -1,0 +1,76 @@
+/* Dated reflections, scoped to the Musings pages. */
+.musings-intro {
+  color: $text-color;
+  font-size: 0.95em;
+}
+
+.musings-jump {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  font-size: 0.9em;
+}
+
+.musings-timeline {
+  margin: 1.8rem 0 0 0.4rem;
+  padding-left: 1.6rem;
+  border-left: 2px solid rgba($text-color, 0.22);
+
+  .musings-period {
+    position: relative;
+    padding-bottom: 2.4rem;
+
+    &:last-child {
+      padding-bottom: 0;
+    }
+
+    &:before {
+      position: absolute;
+      top: 0.35rem;
+      left: -2.08rem;
+      width: 0.85rem;
+      height: 0.85rem;
+      border: 2px solid $background-color;
+      border-radius: 50%;
+      background: $link-color;
+      content: "";
+    }
+  }
+
+  .musings-date {
+    scroll-margin-top: 5rem;
+    margin-bottom: 0.6rem;
+    color: $link-color;
+    font-family: $sans-serif;
+    font-size: 0.95rem;
+    font-weight: 700;
+    line-height: 1.5;
+  }
+
+  .musings-period-label {
+    margin-bottom: 1.1rem;
+    color: $text-color;
+    font-size: 0.9em;
+  }
+
+  .musings-reflection,
+  h2 {
+    scroll-margin-top: 5rem;
+  }
+
+  .musings-reflection + .musings-reflection {
+    margin-top: 2rem;
+  }
+
+  .musings-reflection > h2:first-child {
+    margin-top: 0.5rem;
+  }
+
+  @media (max-width: 600px) {
+    padding-left: 1.15rem;
+
+    .musings-period:before {
+      left: -1.63rem;
+    }
+  }
+}
