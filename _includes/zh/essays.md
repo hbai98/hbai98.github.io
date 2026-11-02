@@ -2,7 +2,7 @@
 
 # ✍️ 随笔
 
-<span class='anchor' id='ai-glasses-in-everyday-life'></span>
+<span class='anchor' id='ai-glasses-in-everyday-life' style='display:block;scroll-margin-top:4rem;'></span>
 
 ## 为什么我想做AI眼镜
 

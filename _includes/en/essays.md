@@ -2,7 +2,7 @@
 
 # ✍️ Musings
 
-<span class='anchor' id='ai-glasses-in-everyday-life'></span>
+<span class='anchor' id='ai-glasses-in-everyday-life' style='display:block;scroll-margin-top:4rem;'></span>
 
 ## Why I want to work on AI glasses
 *November 2026*
