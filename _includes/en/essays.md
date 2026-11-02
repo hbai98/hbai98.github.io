@@ -5,9 +5,9 @@
 <p class="musings-intro">New reflections appear first. Dates mark when these pieces were added to this site.</p>
 
 <nav class="musings-jump" aria-label="Jump to a month">
-<a href="#musings-date-2026-11">November 2026</a>
+<a href="#musings-date-2026-11" data-ss-opts='{"offset":-80}'>November 2026</a>
 <span aria-hidden="true"> · </span>
-<a href="#musings-date-2025-12">December 2025</a>
+<a href="#musings-date-2025-12" data-ss-opts='{"offset":-80}'>December 2025</a>
 </nav>
 
 <div class="musings-timeline" markdown="1">
@@ -34,7 +34,7 @@ I don't assume people will adopt glasses just because the AI can do more. Comfor
 
 ## How HoloSoul started
 
-I bought a holographic display from the US because I wanted a virtual character to be part of daily life. I kept thinking about what it would be like if the character could remember our conversations and grow with me over time.
+A friend on our startup team and I bought a holographic display from the US. I wanted a virtual character to be part of daily life. I kept thinking about what it would be like if the character could remember our conversations and grow with me over time.
 
 Over the past year, I built and shipped [HoloSoul](https://holosoul.cn/) to try that idea. I worked on the software and spent time asking a harder question: why would someone need it? Building the product made that question concrete. I had to think about what would bring someone back, what they would miss if it disappeared, and whether they would pay for it. Those questions still guide what I choose to build.
 

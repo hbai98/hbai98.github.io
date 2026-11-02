@@ -5,9 +5,9 @@
 <p class="musings-intro">日期按随笔加入本站的时间标注，新的在前。</p>
 
 <nav class="musings-jump" aria-label="按月份跳转">
-<a href="#musings-date-2026-11">2026年11月</a>
+<a href="#musings-date-2026-11" data-ss-opts='{"offset":-80}'>2026年11月</a>
 <span aria-hidden="true"> · </span>
-<a href="#musings-date-2025-12">2025年12月</a>
+<a href="#musings-date-2025-12" data-ss-opts='{"offset":-80}'>2025年12月</a>
 </nav>
 
 <div class="musings-timeline" markdown="1">
@@ -34,7 +34,7 @@
 
 ## HoloSoul的起点
 
-我曾从美国淘来一块全息屏，想让里面的角色能记住和人相处的经历，慢慢长成各自不同的样子。这个念头后来成了[灵映科技（HoloSoul）](https://holosoul.cn/)的起点。
+我和创业团队的一位朋友一起从美国淘来一块全息屏。我想让里面的角色能记住和人相处的经历，慢慢长成各自不同的样子。这个念头后来成了[灵映科技（HoloSoul）](https://holosoul.cn/)的起点。
 
 过去一年，我花了很多时间把想法做成可以上线、让人实际使用的产品。除了能不能做出来，我越来越关心用户为什么需要它，为什么愿意留下，又愿意为什么付费。这些问题也带着我重新思考接下来想做的研究。
 
